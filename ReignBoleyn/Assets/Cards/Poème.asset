@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: "Po\xE8me"
   description: "Thomas Wyatt \xE9crit un long po\xE8me complimentant votre regard"
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 21300000, guid: 96db8d6dbf2ef224bb55c4ed91d6cfa5, type: 3}
   textChoiceLeft: "Vous le faites lire \xE0 toute la cour"
   textChoiceRight: Vous le gardez pour vous
   playWhenDiscovered: {fileID: 0}

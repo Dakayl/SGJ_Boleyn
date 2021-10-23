@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: Lettre du Roi Henri VIII
   description: "Ma ch\xE8re amie, je mets mon c\u0153ur entre vos mains."
-  characterImage: {fileID: 21300000, guid: 817f35bf4f921d841a7ac49cbe50d2c3, type: 3}
+  characterImage: {fileID: 21300000, guid: 36edc578f2a9b9c49a7ea686f32a3e2c, type: 3}
   textChoiceLeft: "Vous acceptez ce pr\xE9cieux don"
   textChoiceRight: "Vous ne lui r\xE9pondez pas"
   playWhenDiscovered: {fileID: 0}

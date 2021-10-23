@@ -15,23 +15,25 @@ MonoBehaviour:
   title: Henry VIII
   description: "Qu\u2019est-ce qui se passe avec la bible ? Pourquoi il y a-t-il
     autant d'exemplaire en anglais ?"
+  characterImage: {fileID: 21300000, guid: 63a0c15f1caf255488c8bd1d69737e56, type: 3}
   textChoiceLeft: "Vous r\xE9pondez que vous ne savez pas"
   textChoiceRight: "Vous lui r\xE9pondez que c'est votre initiative"
-  changeEraWhenDiscovered: {fileID: 0}
   playWhenDiscovered: {fileID: 0}
   addNextWhenSwipeLeft: {fileID: 11400000, guid: f0ce7b476ed62534587069398dc728ab, type: 2}
-  addLittleLatersWhenSwipeLeft: {fileID: 0}
+  addLaterWhenSwipeLeft: {fileID: 0}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}
+  changeEraWhenSwipeLeft: {fileID: 0}
   addToHenryWhenSwipeLeft: 0
   addToReligionWhenSwipeLeft: -1
   addToPeopleWhenSwipeLeft: 0
   addNextWhenSwipeRight: {fileID: 11400000, guid: f0ce7b476ed62534587069398dc728ab, type: 2}
-  addLittleLatersWhenSwipeRight: {fileID: 0}
+  addLaterWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}
+  changeEraWhenSwipeRight: {fileID: 0}
   addToHenryWhenSwipeRight: 0
   addToReligionWhenSwipeRight: 0
   addToPeopleWhenSwipeRight: 0

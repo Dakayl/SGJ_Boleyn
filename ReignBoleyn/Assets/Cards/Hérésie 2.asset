@@ -13,24 +13,26 @@ MonoBehaviour:
   m_Name: "H\xE9r\xE9sie 2"
   m_EditorClassIdentifier: 
   title: "H\xE9r\xE9sie"
-  description: 
-  textChoiceLeft: 
-  textChoiceRight: 
-  changeEraWhenDiscovered: {fileID: 0}
+  description: "Une religieuse pr\xE9dit pour vous les pires tortures en enfer"
+  characterImage: {fileID: 21300000, guid: c941694df650cf645a5c6ca76490dc18, type: 3}
+  textChoiceLeft: "Vous la faites arr\xEAter"
+  textChoiceRight: "Vous d\xE9cidez qu'elle ne m\xE9rite pas votre temps"
   playWhenDiscovered: {fileID: 0}
   addNextWhenSwipeLeft: {fileID: 0}
-  addLittleLatersWhenSwipeLeft: {fileID: 0}
+  addLaterWhenSwipeLeft: {fileID: 0}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}
+  changeEraWhenSwipeLeft: {fileID: 0}
   addToHenryWhenSwipeLeft: 0
-  addToReligionWhenSwipeLeft: 0
-  addToPeopleWhenSwipeLeft: 0
+  addToReligionWhenSwipeLeft: 1
+  addToPeopleWhenSwipeLeft: -1
   addNextWhenSwipeRight: {fileID: 0}
-  addLittleLatersWhenSwipeRight: {fileID: 0}
+  addLaterWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}
+  changeEraWhenSwipeRight: {fileID: 0}
   addToHenryWhenSwipeRight: 0
-  addToReligionWhenSwipeRight: 0
+  addToReligionWhenSwipeRight: -1
   addToPeopleWhenSwipeRight: 0

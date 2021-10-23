@@ -14,23 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: Lecture
   description: Le livre que vous lisez...
+  characterImage: {fileID: 21300000, guid: 96db8d6dbf2ef224bb55c4ed91d6cfa5, type: 3}
   textChoiceLeft: "C'est un livre de pri\xE8res"
   textChoiceRight: "Ce sont les Contes de Cantorb\xE9ry"
-  changeEraWhenDiscovered: {fileID: 0}
   playWhenDiscovered: {fileID: 0}
   addNextWhenSwipeLeft: {fileID: 0}
-  addLittleLatersWhenSwipeLeft: {fileID: 0}
+  addLaterWhenSwipeLeft: {fileID: 0}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}
+  changeEraWhenSwipeLeft: {fileID: 0}
   addToHenryWhenSwipeLeft: 0
   addToReligionWhenSwipeLeft: 2
   addToPeopleWhenSwipeLeft: 0
   addNextWhenSwipeRight: {fileID: 0}
-  addLittleLatersWhenSwipeRight: {fileID: 0}
+  addLaterWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}
+  changeEraWhenSwipeRight: {fileID: 0}
   addToHenryWhenSwipeRight: 1
   addToReligionWhenSwipeRight: 0
   addToPeopleWhenSwipeRight: 1

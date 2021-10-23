@@ -4,8 +4,6 @@ using System.Collections;
 using TMPro;
 public class CardUI:MonoBehaviour
 {
-    private TextMeshProUGUI choiceLeft;
-    private TextMeshProUGUI choiceRight;
     private TextMeshProUGUI titleEra;
     private TextMeshProUGUI dateEra;
     private TextMeshProUGUI description;
@@ -20,26 +18,25 @@ public class CardUI:MonoBehaviour
     [SerializeField] private Image cardBack;
     [SerializeField] private Image deckBack;
     [SerializeField] private Image character;
-    private Image backChoiceLeft;
-    private Image backChoiceRight;
+    [SerializeField] private ChoicePanel leftPanel;
+    [SerializeField] private ChoicePanel rightPanel;
     private float maxValueHenry = 30;
     private float maxValuePeople = 30;
     private float maxValueReligion = 50;
     [SerializeField] private float beforeTitleFade = 2.0f;
     [SerializeField] private float titleFadeDuration = 4.0f;
 
+
     protected void Awake()
     {
         canvas = transform.Find("Canvas").GetComponent<Canvas>();
-        choiceLeft = canvas.transform.Find("choiceLeft").GetComponent<TextMeshProUGUI>();
-        choiceRight = canvas.transform.Find("choiceRight").GetComponent<TextMeshProUGUI>();
-        backChoiceLeft = canvas.transform.Find("backChoiceLeft").GetComponent<Image>();
-        backChoiceRight = canvas.transform.Find("backChoiceRight").GetComponent<Image>();
-        dateEra = canvas.transform.Find("dateEra").GetComponent<TextMeshProUGUI>();
+
         titleEra = canvas.transform.Find("titleEra").GetComponent<TextMeshProUGUI>();
+        dateEra = canvas.transform.Find("dateEra").GetComponent<TextMeshProUGUI>();
         cardCanvas = canvas.transform.Find("CardCanvas").GetComponent<Canvas>();
         description = cardCanvas.transform.Find("description").GetComponent<TextMeshProUGUI>();
         title = cardCanvas.transform.Find("title").GetComponent<TextMeshProUGUI>();
+       
         StopSwipe(false, false);
     }
 
@@ -59,42 +56,67 @@ public class CardUI:MonoBehaviour
     }
 
     public void setCard(ChoiceCard card) {
-        Debug.Log("New Card " + card.title);
         currentCard = card;
         title.SetText("..."); 
-        choiceLeft.SetText("..."); 
-        choiceRight.SetText("...");
+        leftPanel.SetText("..."); 
+        rightPanel.SetText("...");
         description.SetText("..."); 
 
-        if(currentCard.textChoiceLeft != null) {
-           choiceLeft.SetText(currentCard.textChoiceLeft); 
-        } 
-        if(currentCard.textChoiceRight != null) {
-           choiceRight.SetText(currentCard.textChoiceRight); 
-        }
         if(currentCard.description != null) {
            description.SetText(currentCard.description); 
         }
         if(currentCard.title != null) {
            title.SetText(currentCard.title); 
         }
-        if(currentCard.characterImage != null) {
-            character.enabled = true;
+        if(currentCard.characterImage != null) {          
             setCharacter(currentCard.characterImage); 
+            character.enabled = true;
         } else {
             character.enabled = false;
         }
+        if(currentCard.textChoiceLeft != null) {
+           leftPanel.SetText(currentCard.textChoiceLeft); 
+        } 
+        if(currentCard.textChoiceRight != null) {
+           rightPanel.SetText(currentCard.textChoiceRight); 
+        }
+        leftPanel.setHenry(currentCard.addToHenryWhenSwipeLeft);
+        leftPanel.setPeople(currentCard.addToPeopleWhenSwipeLeft);
+        leftPanel.setReligion(currentCard.addToReligionWhenSwipeLeft);
+        rightPanel.setHenry(currentCard.addToHenryWhenSwipeRight);
+        rightPanel.setPeople(currentCard.addToPeopleWhenSwipeRight);
+        rightPanel.setReligion(currentCard.addToReligionWhenSwipeRight);
+        resetPanels();
+    }
+
+     protected void resetPanels(){
+
+        rightPanel.showSmaller();
+        leftPanel.showSmaller();
+        rightPanel.enabled = false;  
+        leftPanel.enabled = false;  
+
     }
 
     protected void StartSwipe(bool isMovingLeft, bool isSwiping){
         if(isMovingLeft){
+            rightPanel.showSmaller();
             StartSwipeLeft();
         } else {
+            leftPanel.showSmaller();
             StartSwipeRight();
+        }
+        if(isSwiping) {
+            if(isMovingLeft) {
+                leftPanel.showBigger();  
+            } else {
+                rightPanel.showBigger();
+            }
         }
     }
 
     public void setEra(Era currentEra) {
+        resetPanels();
         if(currentEra.background != null){
             setBackground(currentEra.background);
         }
@@ -113,8 +135,7 @@ public class CardUI:MonoBehaviour
             titleEra.enabled = true;
         }
         if(dateEra.enabled || titleEra.enabled) {
-            Invoke("goFading", beforeTitleFade);
-            
+            Invoke("goFading", beforeTitleFade); 
         }
     }
 
@@ -142,11 +163,11 @@ public class CardUI:MonoBehaviour
         background.sprite = newBackground;
     }
 
-    public void setCardBackground(Sprite newCard) {
-        cardBack.sprite = newCard;
+    public void setCardBackground(Sprite newCardBack) {
+        cardBack.sprite = newCardBack;
     }
-    public void setDeckBackground(Sprite newCard) {
-        deckBack.sprite = newCard;
+    public void setDeckBackground(Sprite newDeckBack) {
+        deckBack.sprite = newDeckBack;
     }
 
     public void setCharacter(Sprite newCharacter) {
@@ -154,24 +175,19 @@ public class CardUI:MonoBehaviour
     }
 
     protected void StartSwipeLeft(){
-        choiceLeft.enabled = true;
-        choiceRight.enabled = false;
-         backChoiceLeft.enabled = true;
-        backChoiceRight.enabled = false;
     }
 
     protected void StartSwipeRight(){
-        choiceRight.enabled = true;
-        choiceLeft.enabled = false;
-        backChoiceRight.enabled = true;
-        backChoiceLeft.enabled = false;
     }
 
     protected void StopSwipe(bool isMovingLeft, bool isSwiping){
-        choiceRight.enabled = false;
-        choiceLeft.enabled = false;
-        backChoiceLeft.enabled = false;
-        backChoiceRight.enabled = false;
+        if(isSwiping){
+            if(isMovingLeft) {
+                rightPanel.enabled = false;  
+            } else {
+                leftPanel.enabled = false;
+            }
+        }
     }
 
     public void setHeightHenryLevel( float value) {

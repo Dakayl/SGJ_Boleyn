@@ -15,23 +15,25 @@ MonoBehaviour:
   title: Brexit
   description: "Le roi veut rendre l'\xC9glise d\u2019Angleterre ind\xE9pendante
     de la tutelle du pape."
+  characterImage: {fileID: 21300000, guid: 83c40cbf735018345915bec69a0bc6c4, type: 3}
   textChoiceLeft: Vous applaudissez
   textChoiceRight: Vous le dissuadez
-  changeEraWhenDiscovered: {fileID: 0}
   playWhenDiscovered: {fileID: 0}
   addNextWhenSwipeLeft: {fileID: 0}
-  addLittleLatersWhenSwipeLeft: {fileID: 0}
+  addLaterWhenSwipeLeft: {fileID: 0}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}
+  changeEraWhenSwipeLeft: {fileID: 0}
   addToHenryWhenSwipeLeft: 3
   addToReligionWhenSwipeLeft: 2
   addToPeopleWhenSwipeLeft: 1
   addNextWhenSwipeRight: {fileID: 0}
-  addLittleLatersWhenSwipeRight: {fileID: 0}
+  addLaterWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}
+  changeEraWhenSwipeRight: {fileID: 0}
   addToHenryWhenSwipeRight: -1
   addToReligionWhenSwipeRight: -1
   addToPeopleWhenSwipeRight: 2
