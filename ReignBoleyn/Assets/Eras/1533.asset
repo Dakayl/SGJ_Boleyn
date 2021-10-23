@@ -10,10 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3457edcf56f2bf34f8c864a2a363b638, type: 3}
-  m_Name: ChoiceCard
+  m_Name: 1533
   m_EditorClassIdentifier: 
   relatedMusic: {fileID: 0}
-  Date: 0
-  nameAct: 
+  Date: 1533
+  nameAct: Acte 2
   background: {fileID: 0}
   newDeck: []
+  shuffleDeck: 1
+  isFinal: 0
