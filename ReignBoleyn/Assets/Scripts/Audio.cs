@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class Audio : MonoBehaviour
+public class Audio:MonoBehaviour
 {
     [Range(0, 1)] [SerializeField] public float musicVolume = 1.0f;
     [Range(0, 1)] [SerializeField] public float ambiantVolume = 1.0f;
