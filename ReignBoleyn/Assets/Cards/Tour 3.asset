@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af61e01d538be0446885315c0df3407a, type: 3}
   m_Name: Tour 3
   m_EditorClassIdentifier: 
-  title: La tour de Londres
+  title: "La Ex\xE9cution de Londres"
   description: 
   textChoiceLeft: 
   textChoiceRight: 

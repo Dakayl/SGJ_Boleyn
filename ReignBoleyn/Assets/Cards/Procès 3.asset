@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: af61e01d538be0446885315c0df3407a, type: 3}
-  m_Name: Prison
+  m_Name: "Proc\xE8s 3"
   m_EditorClassIdentifier: 
-  title: Prison
+  title: "Proc\xE8s"
   description: 
   textChoiceLeft: 
   textChoiceRight: 
@@ -23,16 +23,14 @@ MonoBehaviour:
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}
-  changeEraWhenSwipeLeft: {fileID: 0}
-  addToHenryWhenSwipeLeft: -1
+  addToHenryWhenSwipeLeft: 0
   addToReligionWhenSwipeLeft: 0
-  addToPeopleWhenSwipeLeft: -1
+  addToPeopleWhenSwipeLeft: 0
   addNextWhenSwipeRight: {fileID: 0}
   addLittleLatersWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}
-  changeEraWhenSwipeRight: {fileID: 0}
-  addToHenryWhenSwipeRight: 1
+  addToHenryWhenSwipeRight: 0
   addToReligionWhenSwipeRight: 0
-  addToPeopleWhenSwipeRight: -2
+  addToPeopleWhenSwipeRight: 0

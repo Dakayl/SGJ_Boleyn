@@ -10,21 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: af61e01d538be0446885315c0df3407a, type: 3}
-  m_Name: Cadeau 2
+  m_Name: "Proc\xE8s 4"
   m_EditorClassIdentifier: 
-  title: Cadeau du roi
-  description: "Henri vous offre une \xE9toffe anormalement pr\xE9cieuse"
-  characterImage: {fileID: 0}
-  textChoiceLeft: Vous en faites faire une robe
-  textChoiceRight: Vous en faites faire des tentures pour la chapelle familiale
+  title: "Proc\xE8s"
+  description: 
+  textChoiceLeft: 
+  textChoiceRight: 
+  changeEraWhenDiscovered: {fileID: 0}
   playWhenDiscovered: {fileID: 0}
   addNextWhenSwipeLeft: {fileID: 0}
   addLittleLatersWhenSwipeLeft: {fileID: 0}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}
-  changeEraWhenSwipeLeft: {fileID: 0}
-  addToHenryWhenSwipeLeft: 1
+  addToHenryWhenSwipeLeft: 0
   addToReligionWhenSwipeLeft: 0
   addToPeopleWhenSwipeLeft: 0
   addNextWhenSwipeRight: {fileID: 0}
@@ -32,7 +31,6 @@ MonoBehaviour:
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}
-  changeEraWhenSwipeRight: {fileID: 0}
-  addToHenryWhenSwipeRight: -1
-  addToReligionWhenSwipeRight: 1
+  addToHenryWhenSwipeRight: 0
+  addToReligionWhenSwipeRight: 0
   addToPeopleWhenSwipeRight: 0
