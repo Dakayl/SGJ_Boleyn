@@ -38,6 +38,7 @@ public class Deck:MonoBehaviour
    }
    // Ajouter une carte entre 2 et 3
    public void AddCardbtwn23(ChoiceCard card) {
-       currentDeck.Insert(1, card);
+       int AddCardbtwn23 = Random.Range(1, 2);
+       currentDeck.Insert(AddCardbtwn23, card);
    }
 }
