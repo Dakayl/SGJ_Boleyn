@@ -5,7 +5,11 @@ using System.Collections.Generic;
 
 public class Deck:MonoBehaviour
 {
-    [SerializeField] private List<ChoiceCard> currentDeck;
+   [SerializeField] private List<ChoiceCard> currentDeck;
+
+   public void changeDeck(List<ChoiceCard> newDeck) {
+       currentDeck = newDeck;
+   }
    
    //Ajouter une carte à la fin
    public void addCard(ChoiceCard card) {
@@ -25,10 +29,12 @@ public class Deck:MonoBehaviour
 
    //Prendre la première carte
    public ChoiceCard getFirstCard() {
+       if(currentDeck.Count < 1) {
+           return null;
+       }
        ChoiceCard card = currentDeck[0];
        currentDeck.Remove(card);
        return card;
-       
    }
    // Ajouter une carte entre 2 et 3
    public void AddCardbtwn23(ChoiceCard card) {
