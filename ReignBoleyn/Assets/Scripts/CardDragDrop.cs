@@ -2,7 +2,7 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
- using UnityEngine.EventSystems; // Required when using Event data.
+using UnityEngine.EventSystems;
 
 public class CardDragDrop:MonoBehaviour, IPointerUpHandler, IPointerDownHandler 
 {
@@ -16,6 +16,11 @@ public class CardDragDrop:MonoBehaviour, IPointerUpHandler, IPointerDownHandler
     private Quaternion startCardRotation;
     private bool isMovingLeft;
     private bool isSwiping;
+    public GameObject eventPrefab;
+
+    public void Start(){
+
+    }
 
     public void Awake(){
         startCardPosition = transform.position;
@@ -24,13 +29,15 @@ public class CardDragDrop:MonoBehaviour, IPointerUpHandler, IPointerDownHandler
 
     public void OnPointerDown (PointerEventData eventData) 
     {
+       Debug.Log("Clicking Card");
        startMousePosition = Input.mousePosition;
        isDragged = true;
     }
  
     public void OnPointerUp (PointerEventData eventData) 
     {
-         if(OnDropCard != null) {
+        Debug.Log("Releasing Card");
+        if(OnDropCard != null) {
             OnDropCard(isMovingLeft, isSwiping);
         }
         isDragged = false;

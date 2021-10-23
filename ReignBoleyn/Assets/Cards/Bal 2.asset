@@ -14,15 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: "Bal \xE0 la cour"
   description: "Un grand bal \xE0 la cour !"
+  characterImage: {fileID: 0}
   textChoiceLeft: Vous dansez avec le roi
   textChoiceRight: "Vous dansez avec votre fr\xE8re"
-  changeEraWhenDiscovered: {fileID: 0}
   playWhenDiscovered: {fileID: 0}
   addNextWhenSwipeLeft: {fileID: 0}
   addLittleLatersWhenSwipeLeft: {fileID: 0}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}
+  changeEraWhenSwipeLeft: {fileID: 0}
   addToHenryWhenSwipeLeft: 1
   addToReligionWhenSwipeLeft: 0
   addToPeopleWhenSwipeLeft: -1
@@ -31,6 +32,7 @@ MonoBehaviour:
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}
+  changeEraWhenSwipeRight: {fileID: 0}
   addToHenryWhenSwipeRight: -1
   addToReligionWhenSwipeRight: 0
   addToPeopleWhenSwipeRight: 1

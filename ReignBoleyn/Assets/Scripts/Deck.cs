@@ -5,15 +5,13 @@ using System.Collections.Generic;
 
 public class Deck:MonoBehaviour
 {
-   [SerializeField] private List<ChoiceCard> currentDeck;
-
-   [SerializeField] private bool shuffleDeckAtStart = true;
-
-    protected void Awake(){
-       if(shuffleDeckAtStart) {
-            shuffleDeck();
-       }
+    private List<ChoiceCard> currentDeck;
+    protected void Start(){
     }
+    protected void Awake(){
+        currentDeck = new List<ChoiceCard>();
+    }
+
     protected void shuffleDeck(){
         for (int i = 0; i < currentDeck.Count; i++) {
             ChoiceCard temp = currentDeck[i];
@@ -21,10 +19,12 @@ public class Deck:MonoBehaviour
             currentDeck[i] = currentDeck[randomIndex];
             currentDeck[randomIndex] = temp;
         }
+        Debug.Log("deck shuffled");
     }
 
     public void changeDeck(List<ChoiceCard> newDeck, bool doShuffle) {
-       currentDeck = newDeck;
+ 
+       currentDeck = new List<ChoiceCard>(newDeck);
        if(doShuffle) {
            shuffleDeck();
        }
@@ -57,8 +57,13 @@ public class Deck:MonoBehaviour
     }
 
     // Ajouter une carte entre 2 et 3
-    public void AddCardbtwn23(ChoiceCard card) {
-        int AddCardbtwn23 = Random.Range(1, 2);
-        currentDeck.Insert(AddCardbtwn23, card);
+    public void addCardbtwn23(ChoiceCard card) {
+        if(currentDeck.Count > 2) {
+            int AddCardbtwn23 = Random.Range(1, 2);
+            currentDeck.Insert(AddCardbtwn23, card);
+        } else {
+            addCard(card);
+        }
+        
     }
 }

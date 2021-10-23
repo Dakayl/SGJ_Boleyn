@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: 1536
   m_EditorClassIdentifier: 
   relatedMusic: {fileID: 0}
-  Date: 1536
+  date: 1536
   nameAct: Acte 3
   background: {fileID: 0}
+  cardBack: {fileID: 21300000, guid: 2dab1ea8c6f85ba409e3cb9cc20a6175, type: 3}
+  deckBack: {fileID: 21300000, guid: 28148fb32a0dfc24e8ce1312a8dda119, type: 3}
   newDeck: []
   shuffleDeck: 1
   isFinal: 1

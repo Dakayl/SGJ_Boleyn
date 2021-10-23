@@ -14,23 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: Lettre du Roi Henri VIII
   description: Mon tendre amour, que les jours sont longs sans vous !
+  characterImage: {fileID: 0}
   textChoiceLeft: Vous lui dites de faire avec
   textChoiceRight: Vous lui envoyez votre portrait
-  changeEraWhenDiscovered: {fileID: 0}
   playWhenDiscovered: {fileID: 0}
   addNextWhenSwipeLeft: {fileID: 0}
-  addLittleLatersWhenSwipeLeft: {fileID: 11400000, guid: e9733e4879800024eb71e7e91eb53cc5, type: 2}
+  addLaterWhenSwipeLeft: {fileID: 11400000, guid: e9733e4879800024eb71e7e91eb53cc5, type: 2}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}
+  changeEraWhenSwipeLeft: {fileID: 0}
   addToHenryWhenSwipeLeft: -1
   addToReligionWhenSwipeLeft: 0
   addToPeopleWhenSwipeLeft: 0
-  addNextWhenSwipeRight: {fileID: 11400000, guid: e9733e4879800024eb71e7e91eb53cc5, type: 2}
-  addLittleLatersWhenSwipeRight: {fileID: 0}
+  addNextWhenSwipeRight: {fileID: 0}
+  addLaterWhenSwipeRight: {fileID: 11400000, guid: e9733e4879800024eb71e7e91eb53cc5, type: 2}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}
+  changeEraWhenSwipeRight: {fileID: 0}
   addToHenryWhenSwipeRight: 3
   addToReligionWhenSwipeRight: -1
   addToPeopleWhenSwipeRight: 0

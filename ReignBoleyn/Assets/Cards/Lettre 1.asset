@@ -14,23 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: Lettre du Roi Henri VIII
   description: "Ma ch\xE8re amie, je mets mon c\u0153ur entre vos mains."
+  characterImage: {fileID: 21300000, guid: 817f35bf4f921d841a7ac49cbe50d2c3, type: 3}
   textChoiceLeft: "Vous acceptez ce pr\xE9cieux don"
   textChoiceRight: "Vous ne lui r\xE9pondez pas"
-  changeEraWhenDiscovered: {fileID: 0}
   playWhenDiscovered: {fileID: 0}
-  addNextWhenSwipeLeft: {fileID: 11400000, guid: 4f363145251019542a3c67fad56ff829, type: 2}
-  addLittleLatersWhenSwipeLeft: {fileID: 0}
+  addNextWhenSwipeLeft: {fileID: 0}
+  addLaterWhenSwipeLeft: {fileID: 11400000, guid: 4f363145251019542a3c67fad56ff829, type: 2}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}
+  changeEraWhenSwipeLeft: {fileID: 0}
   addToHenryWhenSwipeLeft: 1
   addToReligionWhenSwipeLeft: 0
   addToPeopleWhenSwipeLeft: 0
-  addNextWhenSwipeRight: {fileID: 11400000, guid: 35ac94264ae0bbd45af3e3fa72f05d2d, type: 2}
-  addLittleLatersWhenSwipeRight: {fileID: 0}
+  addNextWhenSwipeRight: {fileID: 0}
+  addLaterWhenSwipeRight: {fileID: 11400000, guid: 35ac94264ae0bbd45af3e3fa72f05d2d, type: 2}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}
+  changeEraWhenSwipeRight: {fileID: 0}
   addToHenryWhenSwipeRight: -2
   addToReligionWhenSwipeRight: 0
   addToPeopleWhenSwipeRight: 0

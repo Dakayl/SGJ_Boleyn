@@ -16,23 +16,25 @@ MonoBehaviour:
   description: "\"Anne, je ne peux d\xE9cid\xE9ment vivre sans vous.\" Le roi vous
     envoie une escorte pour vous ramener aupr\xE8s de lui, vous allez devenir sa
     reine."
+  characterImage: {fileID: 0}
   textChoiceLeft: Vous vous laissez escorter
   textChoiceRight: "Vous vous d\xE9battez"
-  changeEraWhenDiscovered: {fileID: 11400000, guid: 24800689049498b4c8e7040e20703f3c, type: 2}
   playWhenDiscovered: {fileID: 0}
   addNextWhenSwipeLeft: {fileID: 0}
-  addLittleLatersWhenSwipeLeft: {fileID: 0}
+  addLaterWhenSwipeLeft: {fileID: 0}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}
+  changeEraWhenSwipeLeft: {fileID: 11400000, guid: 24800689049498b4c8e7040e20703f3c, type: 2}
   addToHenryWhenSwipeLeft: 1
   addToReligionWhenSwipeLeft: 0
   addToPeopleWhenSwipeLeft: 0
   addNextWhenSwipeRight: {fileID: 0}
-  addLittleLatersWhenSwipeRight: {fileID: 0}
+  addLaterWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}
+  changeEraWhenSwipeRight: {fileID: 11400000, guid: 24800689049498b4c8e7040e20703f3c, type: 2}
   addToHenryWhenSwipeRight: -3
   addToReligionWhenSwipeRight: 0
   addToPeopleWhenSwipeRight: 0
