@@ -4,7 +4,7 @@ using System.Collections;
 public class Game:MonoBehaviour
 {
     private ChoiceCard currentCard;
-    private Era currentEra;
+    [SerializeField] private Era currentEra;
     private int levelHenry = 0;
     private int levelPeuple = 0;
     private int levelReligion = 0;
@@ -12,13 +12,22 @@ public class Game:MonoBehaviour
     [SerializeField] private CardUI cardMgt;
     [SerializeField] private Audio audioMgt;
     [SerializeField] private float delayNewCard;
+
+    
     protected void Awake(){
         CardDragDrop.OnDropCard += StopSwipe;
+    }
+    protected void Start(){
+        CardDragDrop.OnDropCard += StopSwipe;
+        changeEra(currentEra);
         newCard();
     }
 
     protected void StopSwipe(bool isMovingLeft, bool isSwiping){
         if(isSwiping){
+            if(currentCard == null) {
+                return;
+            }   
             if(isMovingLeft) {
                 playLeft();
             } else {
@@ -34,16 +43,19 @@ public class Game:MonoBehaviour
            audioMgt.playMusic(era.relatedMusic);
         }
         if(era.newDeck != null && era.newDeck.Count > 0) {
-            deckMgt.changeDeck(era.newDeck);
+            deckMgt.changeDeck(era.newDeck, era.shuffleDeck);
         }
     }
 
     protected void newCard() {
+    
         currentCard = deckMgt.getFirstCard();
         Debug.Log(currentCard);
+
         if(currentCard == null) {
             return;
-        }
+        }        
+
         if(currentCard.changeEraWhenDiscovered != null) {
             changeEra(currentCard.changeEraWhenDiscovered);
         }
@@ -53,7 +65,7 @@ public class Game:MonoBehaviour
         cardMgt.setCard(currentCard);
     }
 
-    protected void playLeft() {
+    protected void playLeft() {     
         levelHenry += currentCard.addToHenryWhenSwipeLeft;
         levelPeuple += currentCard.addToPeopleWhenSwipeLeft;
         levelReligion += currentCard.addToReligionWhenSwipeLeft;

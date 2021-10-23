@@ -887,6 +887,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1057533771}
+  - component: {fileID: 1057533770}
   m_Layer: 0
   m_Name: Game
   m_TagString: Untagged
@@ -894,6 +895,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1057533770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057533769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67cd51d31718e8a4a9c40b846e78e362, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deckMgt: {fileID: 2020586173}
+  cardMgt: {fileID: 2082767523}
+  audioMgt: {fileID: 448730181}
+  delayNewCard: 0.5
 --- !u!4 &1057533771
 Transform:
   m_ObjectHideFlags: 0
@@ -1206,7 +1223,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentDeck:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: c2f571cc80ca93349b7a7fda5b63fc9f, type: 2}
+  - {fileID: 11400000, guid: dddc61b2b0f45774d90d637d65e4c204, type: 2}
 --- !u!4 &2020586174
 Transform:
   m_ObjectHideFlags: 0

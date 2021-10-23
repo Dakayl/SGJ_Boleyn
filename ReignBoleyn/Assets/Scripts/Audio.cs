@@ -13,13 +13,21 @@ public class Audio:MonoBehaviour
 
     void Awake() {
         AudioSource musicAudio = gameObject.AddComponent<AudioSource>();
+        musicAudio.loop = true;
+        musicAudio.volume = musicVolume;
+
+
         AudioSource ambiantAudio = gameObject.AddComponent<AudioSource>();
         AudioSource effectAudio = gameObject.AddComponent<AudioSource>();
     }
 
     public void playMusic(AudioClip music) {
         if(music != null) {
-            musicAudio.PlayOneShot(music, musicVolume);
+            //if(musicAudio.isPlaying) {
+            //    musicAudio.Stop();
+            //}
+  
+            musicAudio.Play();
         }
     }
 

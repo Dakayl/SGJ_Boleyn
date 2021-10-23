@@ -12,5 +12,7 @@ public class Era:ScriptableObject
    public string nameAct;
    public Sprite background;
    public List<ChoiceCard> newDeck;
+   public bool shuffleDeck = true;
+   public bool isFinal = false;
 
 }
