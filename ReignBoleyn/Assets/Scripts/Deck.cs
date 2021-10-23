@@ -30,4 +30,8 @@ public class Deck:MonoBehaviour
        return card;
        
    }
+   // Ajouter une carte entre 2 et 3
+   public void AddCardbtwn23(ChoiceCard card) {
+       currentDeck.Insert(1, card);
+   }
 }
