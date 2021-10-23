@@ -11,7 +11,7 @@ public class Audio:MonoBehaviour
     private AudioSource effectAudio;
 
 
-    void Start() {
+    void Awake() {
         AudioSource musicAudio = gameObject.AddComponent<AudioSource>();
         AudioSource ambiantAudio = gameObject.AddComponent<AudioSource>();
         AudioSource effectAudio = gameObject.AddComponent<AudioSource>();

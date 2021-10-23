@@ -17,7 +17,7 @@ public class CardDragDrop:MonoBehaviour, IPointerUpHandler, IPointerDownHandler
     private bool isMovingLeft;
     private bool isSwiping;
 
-    public void Start(){
+    public void Awake(){
         startCardPosition = transform.position;
         startCardRotation = transform.rotation;
     }
