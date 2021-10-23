@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af61e01d538be0446885315c0df3407a, type: 3}
+  m_Name: Heureuse nouvelle 3
+  m_EditorClassIdentifier: 
+  title: Heureuse nouvelle
+  description: "F\xE9licitations, vous \xEAtes enceinte ! Comment souhaitez-vous
+    le f\xEAter ?"
+  textChoiceLeft: Avec une procession religieuse
+  textChoiceRight: Avec une grande distribution de pain
+  changeEraWhenDiscovered: {fileID: 0}
+  playWhenDiscovered: {fileID: 0}
+  addNextWhenSwipeLeft: {fileID: 11400000, guid: de7cb7167c81f9e4f96f0d1143c12b91, type: 2}
+  addLittleLatersWhenSwipeLeft: {fileID: 0}
+  addRandomWhenSwipeLeft: {fileID: 0}
+  addLastWhenSwipeLeft: {fileID: 0}
+  playWhenSwipedLeft: {fileID: 0}
+  addToHenryWhenSwipeLeft: 2
+  addToReligionWhenSwipeLeft: 2
+  addToPeopleWhenSwipeLeft: 0
+  addNextWhenSwipeRight: {fileID: 11400000, guid: de7cb7167c81f9e4f96f0d1143c12b91, type: 2}
+  addLittleLatersWhenSwipeRight: {fileID: 0}
+  addRandomWhenSwipeRight: {fileID: 0}
+  addLastWhenSwipeRight: {fileID: 0}
+  playWhenSwipedRight: {fileID: 0}
+  addToHenryWhenSwipeRight: 0
+  addToReligionWhenSwipeRight: 0
+  addToPeopleWhenSwipeRight: 0

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af61e01d538be0446885315c0df3407a, type: 3}
+  m_Name: Tyndale
+  m_EditorClassIdentifier: 
+  title: Tyndale
+  description: Tyndale demande une audience pour savoir si vous pouvez le soutenir
+    dans la diffusion de la bible traduite.
+  textChoiceLeft: Vous le faites en secret
+  textChoiceRight: "Vous demandez \xE0 Henri VIII"
+  changeEraWhenDiscovered: {fileID: 0}
+  playWhenDiscovered: {fileID: 0}
+  addNextWhenSwipeLeft: {fileID: 11400000, guid: b61a4e422946a91429f9635be0d106c8, type: 2}
+  addLittleLatersWhenSwipeLeft: {fileID: 0}
+  addRandomWhenSwipeLeft: {fileID: 0}
+  addLastWhenSwipeLeft: {fileID: 0}
+  playWhenSwipedLeft: {fileID: 0}
+  addToHenryWhenSwipeLeft: 0
+  addToReligionWhenSwipeLeft: 1
+  addToPeopleWhenSwipeLeft: 0
+  addNextWhenSwipeRight: {fileID: 11400000, guid: 6757030ae461f864fbf07299ea13babd, type: 2}
+  addLittleLatersWhenSwipeRight: {fileID: 0}
+  addRandomWhenSwipeRight: {fileID: 0}
+  addLastWhenSwipeRight: {fileID: 0}
+  playWhenSwipedRight: {fileID: 0}
+  addToHenryWhenSwipeRight: -1
+  addToReligionWhenSwipeRight: 2
+  addToPeopleWhenSwipeRight: 0

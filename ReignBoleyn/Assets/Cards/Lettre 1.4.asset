@@ -10,27 +10,27 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: af61e01d538be0446885315c0df3407a, type: 3}
-  m_Name: ChoiceCard
+  m_Name: Lettre 1.4
   m_EditorClassIdentifier: 
-  title: 
-  description: 
-  textChoiceLeft: 
-  textChoiceRight: 
-  changeEraWhenDiscovered: {fileID: 0}
+  title: Lettre du Roi Henri VIII
+  description: "Mon doux c\u0153ur, je br\xFBle d'amour pour vous. Devenez ma reine."
+  textChoiceLeft: Vous acceptez
+  textChoiceRight: Vous refusez
+  changeEraWhenDiscovered: {fileID: 11400000, guid: 24800689049498b4c8e7040e20703f3c, type: 2}
   playWhenDiscovered: {fileID: 0}
   addNextWhenSwipeLeft: {fileID: 0}
   addLittleLatersWhenSwipeLeft: {fileID: 0}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}
-  addToHenryWhenSwipeLeft: 0
+  addToHenryWhenSwipeLeft: 3
   addToReligionWhenSwipeLeft: 0
   addToPeopleWhenSwipeLeft: 0
-  addNextWhenSwipeRight: {fileID: 0}
+  addNextWhenSwipeRight: {fileID: 11400000, guid: c2f571cc80ca93349b7a7fda5b63fc9f, type: 2}
   addLittleLatersWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}
-  addToHenryWhenSwipeRight: 0
+  addToHenryWhenSwipeRight: -3
   addToReligionWhenSwipeRight: 0
   addToPeopleWhenSwipeRight: 0

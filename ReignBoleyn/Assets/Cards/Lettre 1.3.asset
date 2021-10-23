@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af61e01d538be0446885315c0df3407a, type: 3}
+  m_Name: Lettre 1.3
+  m_EditorClassIdentifier: 
+  title: Lettre du Roi Henri VIII
+  description: "Mon ange, j'ai chass\xE9 ce sanglier, je vous l'envoie."
+  textChoiceLeft: "Vous lui faites comprendre que vous n'en avez pas l'utilit\xE9"
+  textChoiceRight: Vous le remerciez
+  changeEraWhenDiscovered: {fileID: 0}
+  playWhenDiscovered: {fileID: 0}
+  addNextWhenSwipeLeft: {fileID: 11400000, guid: e2b175d192332a04986a641f9f3867f3, type: 2}
+  addLittleLatersWhenSwipeLeft: {fileID: 0}
+  addRandomWhenSwipeLeft: {fileID: 0}
+  addLastWhenSwipeLeft: {fileID: 0}
+  playWhenSwipedLeft: {fileID: 0}
+  addToHenryWhenSwipeLeft: -1
+  addToReligionWhenSwipeLeft: 0
+  addToPeopleWhenSwipeLeft: 0
+  addNextWhenSwipeRight: {fileID: 11400000, guid: e2b175d192332a04986a641f9f3867f3, type: 2}
+  addLittleLatersWhenSwipeRight: {fileID: 0}
+  addRandomWhenSwipeRight: {fileID: 0}
+  addLastWhenSwipeRight: {fileID: 0}
+  playWhenSwipedRight: {fileID: 0}
+  addToHenryWhenSwipeRight: 2
+  addToReligionWhenSwipeRight: 0
+  addToPeopleWhenSwipeRight: 0

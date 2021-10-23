@@ -10,23 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: af61e01d538be0446885315c0df3407a, type: 3}
-  m_Name: anotherTestCard
+  m_Name: Henry 1
   m_EditorClassIdentifier: 
-  title: AnotherTitle
-  description: Description 2
-  textChoiceLeft: Yes
-  textChoiceRight: No
+  title: Henry VIII
+  description: "Qu\u2019est-ce qui se passe avec la bible ? Pourquoi il y a-t-il
+    autant d'exemplaire en anglais ?"
+  textChoiceLeft: "Vous r\xE9pondez que vous ne savez pas"
+  textChoiceRight: "C'est gr\xE2ce \xE0 moi que tout le monde peut lire"
   changeEraWhenDiscovered: {fileID: 0}
   playWhenDiscovered: {fileID: 0}
-  addNextWhenSwipeLeft: {fileID: 0}
+  addNextWhenSwipeLeft: {fileID: 11400000, guid: f0ce7b476ed62534587069398dc728ab, type: 2}
   addLittleLatersWhenSwipeLeft: {fileID: 0}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}
   addToHenryWhenSwipeLeft: 0
-  addToReligionWhenSwipeLeft: 0
+  addToReligionWhenSwipeLeft: -1
   addToPeopleWhenSwipeLeft: 0
-  addNextWhenSwipeRight: {fileID: 0}
+  addNextWhenSwipeRight: {fileID: 11400000, guid: f0ce7b476ed62534587069398dc728ab, type: 2}
   addLittleLatersWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}

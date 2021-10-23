@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af61e01d538be0446885315c0df3407a, type: 3}
+  m_Name: Brexit
+  m_EditorClassIdentifier: 
+  title: Brexit
+  description: "Henri veut rendre l'\xC9glise d\u2019Angleterre ind\xE9pendante de
+    la tutelle du pape."
+  textChoiceLeft: Vous applaudissez
+  textChoiceRight: Vous le dissuadez
+  changeEraWhenDiscovered: {fileID: 0}
+  playWhenDiscovered: {fileID: 0}
+  addNextWhenSwipeLeft: {fileID: 0}
+  addLittleLatersWhenSwipeLeft: {fileID: 0}
+  addRandomWhenSwipeLeft: {fileID: 0}
+  addLastWhenSwipeLeft: {fileID: 0}
+  playWhenSwipedLeft: {fileID: 0}
+  addToHenryWhenSwipeLeft: 3
+  addToReligionWhenSwipeLeft: 2
+  addToPeopleWhenSwipeLeft: 1
+  addNextWhenSwipeRight: {fileID: 0}
+  addLittleLatersWhenSwipeRight: {fileID: 0}
+  addRandomWhenSwipeRight: {fileID: 0}
+  addLastWhenSwipeRight: {fileID: 0}
+  playWhenSwipedRight: {fileID: 0}
+  addToHenryWhenSwipeRight: -1
+  addToReligionWhenSwipeRight: -1
+  addToPeopleWhenSwipeRight: 3
