@@ -13,24 +13,26 @@ MonoBehaviour:
   m_Name: "Po\xE8me"
   m_EditorClassIdentifier: 
   title: "Po\xE8me"
-  description: 
-  textChoiceLeft: 
-  textChoiceRight: 
-  changeEraWhenDiscovered: {fileID: 0}
+  description: "Thomas Wyatt \xE9crit un long po\xE8me complimentant votre regard"
+  characterImage: {fileID: 0}
+  textChoiceLeft: "Vous le faites lire \xE0 toute la cour"
+  textChoiceRight: Vous le gardez pour vous
   playWhenDiscovered: {fileID: 0}
   addNextWhenSwipeLeft: {fileID: 0}
-  addLittleLatersWhenSwipeLeft: {fileID: 0}
+  addLaterWhenSwipeLeft: {fileID: 0}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}
+  changeEraWhenSwipeLeft: {fileID: 0}
   addToHenryWhenSwipeLeft: -2
   addToReligionWhenSwipeLeft: 0
   addToPeopleWhenSwipeLeft: 1
   addNextWhenSwipeRight: {fileID: 0}
-  addLittleLatersWhenSwipeRight: {fileID: 0}
+  addLaterWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}
+  changeEraWhenSwipeRight: {fileID: 0}
   addToHenryWhenSwipeRight: 1
   addToReligionWhenSwipeRight: 0
   addToPeopleWhenSwipeRight: 0

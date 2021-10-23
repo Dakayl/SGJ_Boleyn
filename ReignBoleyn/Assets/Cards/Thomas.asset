@@ -12,25 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af61e01d538be0446885315c0df3407a, type: 3}
   m_Name: Thomas
   m_EditorClassIdentifier: 
-  title: 
-  description: 
-  textChoiceLeft: 
-  textChoiceRight: 
-  changeEraWhenDiscovered: {fileID: 0}
+  title: Thomas More
+  description: "L'ancien chancelier refuse de reconna\xEEtre la supr\xE9matie du
+    roi sur l'\xC9glise d'Angleterre"
+  characterImage: {fileID: 0}
+  textChoiceLeft: Vous dites au roi de faire une exception pour lui
+  textChoiceRight: "Vous poussez Henri \xE0 faire un exemple"
   playWhenDiscovered: {fileID: 0}
   addNextWhenSwipeLeft: {fileID: 0}
   addLittleLatersWhenSwipeLeft: {fileID: 0}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}
-  addToHenryWhenSwipeLeft: 0
+  changeEraWhenSwipeLeft: {fileID: 0}
+  addToHenryWhenSwipeLeft: -1
   addToReligionWhenSwipeLeft: 0
-  addToPeopleWhenSwipeLeft: 0
+  addToPeopleWhenSwipeLeft: -1
   addNextWhenSwipeRight: {fileID: 0}
   addLittleLatersWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}
-  addToHenryWhenSwipeRight: 0
+  changeEraWhenSwipeRight: {fileID: 0}
+  addToHenryWhenSwipeRight: 1
   addToReligionWhenSwipeRight: 0
-  addToPeopleWhenSwipeRight: 0
+  addToPeopleWhenSwipeRight: -2

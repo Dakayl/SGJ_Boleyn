@@ -8,9 +8,11 @@ using System.Collections.Generic;
 public class Era:ScriptableObject
 {
    public AudioClip relatedMusic;
-   public int Date;
+   public int date;
    public string nameAct;
    public Sprite background;
+   public Sprite cardBack;
+   public Sprite deckBack;
    public List<ChoiceCard> newDeck;
    public bool shuffleDeck = true;
    public bool isFinal = false;

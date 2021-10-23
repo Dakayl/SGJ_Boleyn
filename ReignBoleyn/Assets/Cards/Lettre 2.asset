@@ -14,23 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: Lettre du Roi Henri VIII
   description: Ma mie, pourquoi vous montrez vous si cruelle ?
+  characterImage: {fileID: 0}
   textChoiceLeft: "Vous vous excusez, et lui r\xE9pondez tendrement"
   textChoiceRight: "Vous ne lui r\xE9pondez pas"
-  changeEraWhenDiscovered: {fileID: 0}
   playWhenDiscovered: {fileID: 0}
-  addNextWhenSwipeLeft: {fileID: 11400000, guid: 4f363145251019542a3c67fad56ff829, type: 2}
-  addLittleLatersWhenSwipeLeft: {fileID: 0}
+  addNextWhenSwipeLeft: {fileID: 0}
+  addLaterWhenSwipeLeft: {fileID: 11400000, guid: 4f363145251019542a3c67fad56ff829, type: 2}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}
+  changeEraWhenSwipeLeft: {fileID: 0}
   addToHenryWhenSwipeLeft: 1
   addToReligionWhenSwipeLeft: 0
   addToPeopleWhenSwipeLeft: 0
-  addNextWhenSwipeRight: {fileID: 11400000, guid: dddc61b2b0f45774d90d637d65e4c204, type: 2}
-  addLittleLatersWhenSwipeRight: {fileID: 0}
+  addNextWhenSwipeRight: {fileID: 0}
+  addLaterWhenSwipeRight: {fileID: 11400000, guid: dddc61b2b0f45774d90d637d65e4c204, type: 2}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}
+  changeEraWhenSwipeRight: {fileID: 0}
   addToHenryWhenSwipeRight: -1
   addToReligionWhenSwipeRight: 0
   addToPeopleWhenSwipeRight: 0
