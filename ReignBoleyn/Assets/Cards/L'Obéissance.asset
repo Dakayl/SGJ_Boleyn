@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: "L'Ob\xE9issance"
   m_EditorClassIdentifier: 
   title: "L'Ob\xE9issance du Chr\xE9tien"
-  description: "Vous avez fait lire \xE0 Henri un livre qui lui explique que les
-    rois sont au-dessus des papes"
+  description: Vous avez fait lire au roi un livre qui lui explique que les rois
+    sont au-dessus des papes
   textChoiceLeft: Sans le pape, vous aurez plus de pouvoir !
   textChoiceRight: Sans le pape, les Anglais seront plus heureux
   changeEraWhenDiscovered: {fileID: 0}
@@ -34,4 +34,4 @@ MonoBehaviour:
   playWhenSwipedRight: {fileID: 0}
   addToHenryWhenSwipeRight: 1
   addToReligionWhenSwipeRight: 3
-  addToPeopleWhenSwipeRight: 3
+  addToPeopleWhenSwipeRight: 2

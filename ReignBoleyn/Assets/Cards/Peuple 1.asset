@@ -10,12 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: af61e01d538be0446885315c0df3407a, type: 3}
-  m_Name: Thomas
+  m_Name: Peuple 1
   m_EditorClassIdentifier: 
-  title: 
-  description: 
-  textChoiceLeft: 
-  textChoiceRight: 
+  title: Le bon peuple
+  description: "L'archev\xEAque de Cantorb\xE9ry vient vous demander conseil sur
+    la mani\xE8re de pousser les gens \xE0 accepter la supr\xE9matie royale."
+  textChoiceLeft: Vous conseillez la force
+  textChoiceRight: "Vous conseillez la patience et l'\xE9ducation"
   changeEraWhenDiscovered: {fileID: 0}
   playWhenDiscovered: {fileID: 0}
   addNextWhenSwipeLeft: {fileID: 0}
@@ -24,13 +25,13 @@ MonoBehaviour:
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}
   addToHenryWhenSwipeLeft: 0
-  addToReligionWhenSwipeLeft: 0
-  addToPeopleWhenSwipeLeft: 0
+  addToReligionWhenSwipeLeft: 2
+  addToPeopleWhenSwipeLeft: -2
   addNextWhenSwipeRight: {fileID: 0}
   addLittleLatersWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}
   addToHenryWhenSwipeRight: 0
-  addToReligionWhenSwipeRight: 0
-  addToPeopleWhenSwipeRight: 0
+  addToReligionWhenSwipeRight: 1
+  addToPeopleWhenSwipeRight: 2

@@ -18,8 +18,8 @@ MonoBehaviour:
   textChoiceRight: "Vous ne lui r\xE9pondez pas"
   changeEraWhenDiscovered: {fileID: 0}
   playWhenDiscovered: {fileID: 0}
-  addNextWhenSwipeLeft: {fileID: 11400000, guid: 4f363145251019542a3c67fad56ff829, type: 2}
-  addLittleLatersWhenSwipeLeft: {fileID: 0}
+  addNextWhenSwipeLeft: {fileID: 0}
+  addLittleLatersWhenSwipeLeft: {fileID: 11400000, guid: 4f363145251019542a3c67fad56ff829, type: 2}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}

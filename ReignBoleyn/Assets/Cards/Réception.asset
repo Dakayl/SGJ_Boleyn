@@ -25,12 +25,12 @@ MonoBehaviour:
   playWhenSwipedLeft: {fileID: 0}
   addToHenryWhenSwipeLeft: 2
   addToReligionWhenSwipeLeft: 0
-  addToPeopleWhenSwipeLeft: 0
+  addToPeopleWhenSwipeLeft: -1
   addNextWhenSwipeRight: {fileID: 0}
   addLittleLatersWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}
-  addToHenryWhenSwipeRight: 1
+  addToHenryWhenSwipeRight: -1
   addToReligionWhenSwipeRight: 0
-  addToPeopleWhenSwipeRight: 1
+  addToPeopleWhenSwipeRight: 0

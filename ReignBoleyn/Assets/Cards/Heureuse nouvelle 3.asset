@@ -19,7 +19,7 @@ MonoBehaviour:
   textChoiceRight: Avec une grande distribution de pain
   changeEraWhenDiscovered: {fileID: 0}
   playWhenDiscovered: {fileID: 0}
-  addNextWhenSwipeLeft: {fileID: 11400000, guid: de7cb7167c81f9e4f96f0d1143c12b91, type: 2}
+  addNextWhenSwipeLeft: {fileID: 11400000, guid: 4e4c80a508c79df49926ca2035efd017, type: 2}
   addLittleLatersWhenSwipeLeft: {fileID: 0}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
@@ -27,11 +27,11 @@ MonoBehaviour:
   addToHenryWhenSwipeLeft: 2
   addToReligionWhenSwipeLeft: 2
   addToPeopleWhenSwipeLeft: 0
-  addNextWhenSwipeRight: {fileID: 11400000, guid: de7cb7167c81f9e4f96f0d1143c12b91, type: 2}
+  addNextWhenSwipeRight: {fileID: 11400000, guid: 4e4c80a508c79df49926ca2035efd017, type: 2}
   addLittleLatersWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}
-  addToHenryWhenSwipeRight: 0
+  addToHenryWhenSwipeRight: 1
   addToReligionWhenSwipeRight: 0
-  addToPeopleWhenSwipeRight: 0
+  addToPeopleWhenSwipeRight: 2

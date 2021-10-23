@@ -16,7 +16,7 @@ MonoBehaviour:
   description: "Qu\u2019est-ce qui se passe avec la bible ? Pourquoi il y a-t-il
     autant d'exemplaire en anglais ?"
   textChoiceLeft: "Vous r\xE9pondez que vous ne savez pas"
-  textChoiceRight: "C'est gr\xE2ce \xE0 moi que tout le monde peut lire"
+  textChoiceRight: "Vous lui r\xE9pondez que c'est votre initiative"
   changeEraWhenDiscovered: {fileID: 0}
   playWhenDiscovered: {fileID: 0}
   addNextWhenSwipeLeft: {fileID: 11400000, guid: f0ce7b476ed62534587069398dc728ab, type: 2}

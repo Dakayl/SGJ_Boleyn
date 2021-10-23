@@ -17,7 +17,7 @@ MonoBehaviour:
     de sa descendance."
   textChoiceLeft: "Vous bl\xE2mez Henri pour sa trahison, qui est la cause de cet
     \xE9v\xE9nement"
-  textChoiceRight: Pourquoi Dieu vous abandonne-t-Il ?
+  textChoiceRight: Pourquoi Dieu vous abandonne-t-il ?
   changeEraWhenDiscovered: {fileID: 0}
   playWhenDiscovered: {fileID: 0}
   addNextWhenSwipeLeft: {fileID: 11400000, guid: 4b6ee48c84cdf9f4ab374587bfa37cbf, type: 2}

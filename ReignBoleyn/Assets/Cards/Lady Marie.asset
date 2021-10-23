@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af61e01d538be0446885315c0df3407a, type: 3}
   m_Name: Lady Marie
   m_EditorClassIdentifier: 
-  title: 
-  description: 
-  textChoiceLeft: 
-  textChoiceRight: 
+  title: Lady Marie
+  description: "La fille du roi et de Catherine d'Aragon refuse de reconna\xEEtre
+    votre statut de reine."
+  textChoiceLeft: Vous l'ignorez
+  textChoiceRight: Vous la faites battre
   changeEraWhenDiscovered: {fileID: 0}
   playWhenDiscovered: {fileID: 0}
   addNextWhenSwipeLeft: {fileID: 0}
@@ -25,12 +26,12 @@ MonoBehaviour:
   playWhenSwipedLeft: {fileID: 0}
   addToHenryWhenSwipeLeft: 0
   addToReligionWhenSwipeLeft: 0
-  addToPeopleWhenSwipeLeft: 0
+  addToPeopleWhenSwipeLeft: -1
   addNextWhenSwipeRight: {fileID: 0}
   addLittleLatersWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}
-  addToHenryWhenSwipeRight: 0
+  addToHenryWhenSwipeRight: 1
   addToReligionWhenSwipeRight: 0
-  addToPeopleWhenSwipeRight: 0
+  addToPeopleWhenSwipeRight: -2

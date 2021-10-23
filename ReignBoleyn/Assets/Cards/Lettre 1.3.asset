@@ -18,8 +18,8 @@ MonoBehaviour:
   textChoiceRight: Vous le remerciez
   changeEraWhenDiscovered: {fileID: 0}
   playWhenDiscovered: {fileID: 0}
-  addNextWhenSwipeLeft: {fileID: 11400000, guid: e2b175d192332a04986a641f9f3867f3, type: 2}
-  addLittleLatersWhenSwipeLeft: {fileID: 0}
+  addNextWhenSwipeLeft: {fileID: 0}
+  addLittleLatersWhenSwipeLeft: {fileID: 11400000, guid: e2b175d192332a04986a641f9f3867f3, type: 2}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}

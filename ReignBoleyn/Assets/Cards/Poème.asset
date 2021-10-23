@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: "Po\xE8me"
   m_EditorClassIdentifier: 
   title: "Po\xE8me"
-  description: 
-  textChoiceLeft: 
-  textChoiceRight: 
+  description: "Thomas Wyatt \xE9crit un long po\xE8me complimentant votre regard"
+  textChoiceLeft: "Vous le faites lire \xE0 toute la cour"
+  textChoiceRight: Vous le gardez pour vous
   changeEraWhenDiscovered: {fileID: 0}
   playWhenDiscovered: {fileID: 0}
   addNextWhenSwipeLeft: {fileID: 0}

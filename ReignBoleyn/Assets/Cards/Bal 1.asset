@@ -10,27 +10,27 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: af61e01d538be0446885315c0df3407a, type: 3}
-  m_Name: Lettre 1.1
+  m_Name: Bal 1
   m_EditorClassIdentifier: 
-  title: Lettre du Roi Henri VIII
-  description: "Ma douce, j'ai compos\xE9 un po\xE8me pour vous."
-  textChoiceLeft: Vous lui dites que vous aimez
-  textChoiceRight: Vous vous moquez
+  title: "Bal \xE0 la cour"
+  description: "Un grand bal \xE0 la cour !"
+  textChoiceLeft: "Vous vantez les qualit\xE9s de danseuses de vos compagnes"
+  textChoiceRight: "Vous \xE9clipsez tout le monde par vos talents"
   changeEraWhenDiscovered: {fileID: 0}
   playWhenDiscovered: {fileID: 0}
   addNextWhenSwipeLeft: {fileID: 0}
-  addLittleLatersWhenSwipeLeft: {fileID: 11400000, guid: b7c9d9f92df1e4c41a602d7ad4a041f4, type: 2}
+  addLittleLatersWhenSwipeLeft: {fileID: 0}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}
-  addToHenryWhenSwipeLeft: 2
+  addToHenryWhenSwipeLeft: 0
   addToReligionWhenSwipeLeft: 0
-  addToPeopleWhenSwipeLeft: 0
-  addNextWhenSwipeRight: {fileID: 11400000, guid: b7c9d9f92df1e4c41a602d7ad4a041f4, type: 2}
+  addToPeopleWhenSwipeLeft: 1
+  addNextWhenSwipeRight: {fileID: 0}
   addLittleLatersWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}
-  addToHenryWhenSwipeRight: -2
+  addToHenryWhenSwipeRight: 2
   addToReligionWhenSwipeRight: 0
-  addToPeopleWhenSwipeRight: 0
+  addToPeopleWhenSwipeRight: -1

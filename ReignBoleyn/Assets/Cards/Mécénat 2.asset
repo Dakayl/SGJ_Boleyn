@@ -15,7 +15,7 @@ MonoBehaviour:
   title: "M\xE9c\xE9nat"
   description: "No\xEBl approche ! Vous offrez au roi..."
   textChoiceLeft: "Un nouveau livre de pri\xE8res"
-  textChoiceRight: Une oeuvre d'Hans Holbein
+  textChoiceRight: "Une \u0153uvre d'Hans Holbein"
   changeEraWhenDiscovered: {fileID: 0}
   playWhenDiscovered: {fileID: 0}
   addNextWhenSwipeLeft: {fileID: 0}

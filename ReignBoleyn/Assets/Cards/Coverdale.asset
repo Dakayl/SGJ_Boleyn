@@ -15,7 +15,7 @@ MonoBehaviour:
   title: Coverdale
   description: Myles Coverdale a traduit l'ancien testament.
   textChoiceLeft: Vous ne faites rien
-  textChoiceRight: Vous encourager sa diffusion
+  textChoiceRight: Vous encouragez sa diffusion
   changeEraWhenDiscovered: {fileID: 0}
   playWhenDiscovered: {fileID: 0}
   addNextWhenSwipeLeft: {fileID: 0}

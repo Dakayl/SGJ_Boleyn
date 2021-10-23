@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Cadeau 1
   m_EditorClassIdentifier: 
   title: Cadeau du roi
-  description: Henri vous offre un bijou magnifique !
+  description: Le roi vous offre un bijou magnifique !
   textChoiceLeft: Vous le portez devant la reine
   textChoiceRight: Vous le portez dans vos appartements uniquement
   changeEraWhenDiscovered: {fileID: 0}

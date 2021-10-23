@@ -33,4 +33,4 @@ MonoBehaviour:
   playWhenSwipedRight: {fileID: 0}
   addToHenryWhenSwipeRight: 0
   addToReligionWhenSwipeRight: 0
-  addToPeopleWhenSwipeRight: 0
+  addToPeopleWhenSwipeRight: 3

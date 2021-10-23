@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Brexit
   m_EditorClassIdentifier: 
   title: Brexit
-  description: "Henri veut rendre l'\xC9glise d\u2019Angleterre ind\xE9pendante de
-    la tutelle du pape."
+  description: "Le roi veut rendre l'\xC9glise d\u2019Angleterre ind\xE9pendante
+    de la tutelle du pape."
   textChoiceLeft: Vous applaudissez
   textChoiceRight: Vous le dissuadez
   changeEraWhenDiscovered: {fileID: 0}
@@ -34,4 +34,4 @@ MonoBehaviour:
   playWhenSwipedRight: {fileID: 0}
   addToHenryWhenSwipeRight: -1
   addToReligionWhenSwipeRight: -1
-  addToPeopleWhenSwipeRight: 3
+  addToPeopleWhenSwipeRight: 2
