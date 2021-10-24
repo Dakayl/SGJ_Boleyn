@@ -5,21 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class StartScript : MonoBehaviour
 {
-    private Audio audioMgt;
+    [SerializeField]private Audio audioMgt;
     [SerializeField] private AudioClip relatedMusic;
     [Range(0, 1.0f)] public float volume = 1.0f;
 
     void Awake(){
-        audioMgt = GlobalParameters.getAudio();
-        if(audioMgt == null){
-            audioMgt = gameObject.AddComponent(typeof(Audio)) as Audio;
+        if(audioMgt != null){
             GlobalParameters.setAudio(audioMgt);
         }
     }
 
     void Start()
     {
-        
         if(relatedMusic != null) {
            audioMgt.musicVolume = volume;
            audioMgt.playMusic(relatedMusic);

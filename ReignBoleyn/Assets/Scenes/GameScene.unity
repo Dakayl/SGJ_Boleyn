@@ -825,53 +825,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 345508325}
   m_CullTransparentMesh: 1
---- !u!1 &448730180
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 448730182}
-  - component: {fileID: 448730181}
-  m_Layer: 0
-  m_Name: Audio
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &448730181
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 448730180}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: acb81ca9ec3ee624a8af7dd5698f6bd0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  musicVolume: 1
-  ambiantVolume: 1
-  effectVolume: 1
-  fadeDuration: 1.5
---- !u!4 &448730182
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 448730180}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &451665163
 GameObject:
   m_ObjectHideFlags: 0
@@ -1847,7 +1800,7 @@ MonoBehaviour:
   normalBackImage: {fileID: 21300000, guid: 5b95d9f9e23d01c40bc023a49bfb2ef2, type: 3}
   biggerBackImage: {fileID: 21300000, guid: 9aef455ce3693e14d83cefac152b520d, type: 3}
   parchemin: {fileID: 8300000, guid: c82ddbe7d3b69ee4b9a243c1147262f3, type: 3}
-  audioMgt: {fileID: 448730181}
+  audioMgt: {fileID: 0}
 --- !u!1 &694114677
 GameObject:
   m_ObjectHideFlags: 0
@@ -2155,7 +2108,7 @@ MonoBehaviour:
   normalBackImage: {fileID: 21300000, guid: 5b95d9f9e23d01c40bc023a49bfb2ef2, type: 3}
   biggerBackImage: {fileID: 21300000, guid: 9aef455ce3693e14d83cefac152b520d, type: 3}
   parchemin: {fileID: 8300000, guid: c82ddbe7d3b69ee4b9a243c1147262f3, type: 3}
-  audioMgt: {fileID: 448730181}
+  audioMgt: {fileID: 0}
 --- !u!1 &769850451
 GameObject:
   m_ObjectHideFlags: 0
@@ -2404,7 +2357,6 @@ MonoBehaviour:
   maxValueReligion: 30
   deckMgt: {fileID: 2020586173}
   cardInterfaceMgt: {fileID: 2082767523}
-  audioMgt: {fileID: 448730181}
   delayNewCard: 0.5
 --- !u!4 &1057533771
 Transform:
@@ -2418,7 +2370,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1057533772
 MonoBehaviour:
@@ -3391,7 +3343,7 @@ Transform:
   m_LocalScale: {x: 0.9638, y: 0.9638, z: 0.9638}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1758494032
 GameObject:
@@ -3950,7 +3902,6 @@ MonoBehaviour:
   titleFadeDuration: 4
   bgFadeDuration: 1.1
   cardSound: {fileID: 8300000, guid: ec63579f5e2459d41b74c9bc03ed20a2, type: 3}
-  audioMgt: {fileID: 448730181}
 --- !u!4 &2082767524
 Transform:
   m_ObjectHideFlags: 0
@@ -3964,7 +3915,7 @@ Transform:
   m_Children:
   - {fileID: 488701990}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2084278305
 GameObject:

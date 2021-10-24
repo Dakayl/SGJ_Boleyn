@@ -10,7 +10,7 @@ public class ChoicePanel : MonoBehaviour
     [SerializeField] private Sprite normalBackImage;
     [SerializeField] private Sprite biggerBackImage;
     [SerializeField] private AudioClip parchemin;
-    [SerializeField] private Audio audioMgt;
+    private Audio audioMgt;
     private bool isBig = false;
     private TextMeshProUGUI text;
     private TextMeshProUGUI textHenry;
@@ -23,6 +23,14 @@ public class ChoicePanel : MonoBehaviour
     private int religionLevel = 0;
     private int henryLevel = 0;
     private int peopleLevel = 0;
+
+     void Awake() {
+        audioMgt = GlobalParameters.getAudio();
+        if(audioMgt == null){
+            audioMgt = gameObject.AddComponent(typeof(Audio)) as Audio;
+            GlobalParameters.setAudio(audioMgt);
+        }
+    }
 
     // Start is called before the first frame update
     void Start()

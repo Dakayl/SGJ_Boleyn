@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class IntroductionScript : MonoBehaviour
+public class TutoScript : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -15,7 +15,7 @@ public class IntroductionScript : MonoBehaviour
     void Update()
     {
         if (Input.GetMouseButtonDown(0)) {
-            SceneManager.LoadScene("Tuto", LoadSceneMode.Single);
+            SceneManager.LoadScene("GameScene", LoadSceneMode.Single);
         }
     }
 }

@@ -13,7 +13,6 @@ public class Audio:MonoBehaviour
     private AudioClip nextMusic;
 
     void Awake() {
-
         musicAudio = gameObject.AddComponent<AudioSource>();
         musicAudio.loop = true;
         musicAudio.volume = musicVolume;
@@ -21,6 +20,7 @@ public class Audio:MonoBehaviour
         effectAudio = gameObject.AddComponent<AudioSource>();
         DontDestroyOnLoad(this.gameObject);
     }   
+
     protected void Start(){
     }   
     
