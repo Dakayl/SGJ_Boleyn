@@ -2395,7 +2395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67cd51d31718e8a4a9c40b846e78e362, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentEra: {fileID: 11400000, guid: 24800689049498b4c8e7040e20703f3c, type: 2}
+  currentEra: {fileID: 11400000, guid: f29d41511ba8b0e46931d117a02f4622, type: 2}
   levelHenry: 0
   levelPeople: 0
   levelReligion: 0

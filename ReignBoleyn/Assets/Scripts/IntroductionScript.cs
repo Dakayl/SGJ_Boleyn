@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class StartScript : MonoBehaviour
+public class IntroductionScript : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -15,7 +15,7 @@ public class StartScript : MonoBehaviour
     void Update()
     {
         if (Input.GetMouseButtonDown(0)) {
-            SceneManager.LoadScene("Introduction", LoadSceneMode.Single);
+            SceneManager.LoadScene("GameScene", LoadSceneMode.Single);
         }
     }
 }
