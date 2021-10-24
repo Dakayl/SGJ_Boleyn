@@ -19,7 +19,7 @@ MonoBehaviour:
   textChoiceRight: Lui proposer de lire "un certain livre..."
   playWhenDiscovered: {fileID: 8300000, guid: edde31b142e88674d977e50bdc782875, type: 3}
   act2SpecialCard: 0
-  addNextWhenSwipeLeft: {fileID: 0}
+  addNextWhenSwipeLeft: {fileID: 11400000, guid: af68148fe78675e40b8b619239adf451, type: 2}
   addLaterWhenSwipeLeft: {fileID: 0}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
@@ -28,8 +28,8 @@ MonoBehaviour:
   addToHenryWhenSwipeLeft: 1
   addToReligionWhenSwipeLeft: 0
   addToPeopleWhenSwipeLeft: 0
-  addNextWhenSwipeRight: {fileID: 0}
-  addLaterWhenSwipeRight: {fileID: 11400000, guid: 8edbe3c838bfed34a9493b71862f4319, type: 2}
+  addNextWhenSwipeRight: {fileID: 11400000, guid: 8edbe3c838bfed34a9493b71862f4319, type: 2}
+  addLaterWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}

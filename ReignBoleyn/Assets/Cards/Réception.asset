@@ -18,6 +18,7 @@ MonoBehaviour:
   textChoiceLeft: "Vous vous faites discr\xE8te"
   textChoiceRight: "Vous leur parlez en fran\xE7ais"
   playWhenDiscovered: {fileID: 0}
+  act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 0}
   addLaterWhenSwipeLeft: {fileID: 0}
   addRandomWhenSwipeLeft: {fileID: 0}
@@ -26,13 +27,13 @@ MonoBehaviour:
   changeEraWhenSwipeLeft: {fileID: 0}
   addToHenryWhenSwipeLeft: 2
   addToReligionWhenSwipeLeft: 0
-  addToPeopleWhenSwipeLeft: -1
+  addToPeopleWhenSwipeLeft: 0
   addNextWhenSwipeRight: {fileID: 0}
   addLaterWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}
   changeEraWhenSwipeRight: {fileID: 0}
-  addToHenryWhenSwipeRight: -1
+  addToHenryWhenSwipeRight: 1
   addToReligionWhenSwipeRight: 0
   addToPeopleWhenSwipeRight: 0

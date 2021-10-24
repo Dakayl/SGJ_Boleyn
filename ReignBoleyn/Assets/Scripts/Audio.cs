@@ -27,7 +27,7 @@ public class Audio:MonoBehaviour
     public IEnumerator StopFade()
     {
         float currentTime = 0;
-        float start = musicAudio.volume;
+        float start = musicVolume;
         if(musicAudio.isPlaying) {
             while (currentTime < fadeDuration)
             {

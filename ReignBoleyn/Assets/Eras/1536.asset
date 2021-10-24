@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 1536
   m_EditorClassIdentifier: 
   relatedMusic: {fileID: 8300000, guid: 3d1d65ffd1681a84a8da6208bb968449, type: 3}
+  volume: 1
   date: 1536
   nameAct: Acte 3
   background: {fileID: 21300000, guid: 4f47a285154fed547974701ee8c58221, type: 3}
@@ -29,6 +30,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b50338b03de3ba2449576e946ee8a2e0, type: 2}
   - {fileID: 11400000, guid: c4d8cc5bff4028d4ba11a6c409583f3c, type: 2}
   shuffleDeck: 0
+  addCardAt23: {fileID: 0}
   endingHenriLovesYouAct2: {fileID: 0}
   endingHenriDoesntLoveYouAct2: {fileID: 0}
   subDeckTourAct3:

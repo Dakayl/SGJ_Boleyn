@@ -62,8 +62,12 @@ public class Game:MonoBehaviour
         if(currentEra.newDeck != null
         && currentEra.newDeck.Count > 0) {            
             deckMgt.changeDeck(currentEra.newDeck, currentEra.shuffleDeck);
+            if(currentEra.addCardAt23 != null) {
+                deckMgt.addCardbtwn23(currentEra.addCardAt23);
+            }
         }
         if(currentEra.relatedMusic != null) {
+           audioMgt.musicVolume = currentEra.volume;
            audioMgt.playMusic(currentEra.relatedMusic);
         }
         cardInterfaceMgt.setEra(currentEra);
