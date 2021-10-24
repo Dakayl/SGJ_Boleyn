@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine.UI; 
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class EndScript : MonoBehaviour
 {
@@ -89,6 +90,8 @@ public class EndScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+         if (Input.GetMouseButtonDown(0)) {
+            SceneManager.LoadScene("Credits", LoadSceneMode.Single);
+        }
     }
 }

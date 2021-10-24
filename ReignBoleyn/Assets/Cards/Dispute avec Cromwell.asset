@@ -17,7 +17,7 @@ MonoBehaviour:
     voulez l'employer pour une bonne cause, mais Cromwell veut la garder pour le
     tr\xE9sor royal."
   characterImage: {fileID: 0}
-  textChoiceLeft: Vous le laissez-faire
+  textChoiceLeft: Vous le laissez faire
   textChoiceRight: "Vous vous opposez violemment \xE0 lui"
   playWhenDiscovered: {fileID: 8300000, guid: f53039f00f3bc5c4daebfbd5c01761c5, type: 3}
   act2SpecialCard: 1
