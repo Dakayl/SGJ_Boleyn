@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: 1527
   m_EditorClassIdentifier: 
   relatedMusic: {fileID: 8300000, guid: 3d535469d96f58c45a4a8be009ba0429, type: 3}
+  volume: 1
   date: 1527
   nameAct: Acte 1
   background: {fileID: 21300000, guid: a993d0d4196461d4abccfb253b18d3ca, type: 3}
   cardBack: {fileID: 21300000, guid: bef267f39e8cc184e909234721d7ea68, type: 3}
   deckBack: {fileID: 21300000, guid: aca25d4bc312b6f479e8d2ca3a20e7bd, type: 3}
   newDeck:
-  - {fileID: 11400000, guid: af6472120f3336c4885fac8d74495176, type: 2}
   - {fileID: 11400000, guid: 229cd6a1bc6cbd64db2596f91c59f682, type: 2}
   - {fileID: 11400000, guid: ab94c83c1cb5e14489020777d438c58a, type: 2}
   - {fileID: 11400000, guid: 84f5fc46003fb954280192601f3079ef, type: 2}
@@ -37,6 +37,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 6a6f0e267aaa07b4a96be2028417f334, type: 2}
   - {fileID: 11400000, guid: 3d55bf6f7806cb24eab6c69e5250c962, type: 2}
   shuffleDeck: 1
+  addCardAt23: {fileID: 11400000, guid: 4f363145251019542a3c67fad56ff829, type: 2}
   endingHenriLovesYouAct2: {fileID: 0}
   endingHenriDoesntLoveYouAct2: {fileID: 0}
   subDeckTourAct3: []
@@ -47,3 +48,4 @@ MonoBehaviour:
   titleColor:
     serializedVersion: 2
     rgba: 4278190080
+  isFinalEra: 0

@@ -62,8 +62,12 @@ public class Game:MonoBehaviour
         if(currentEra.newDeck != null
         && currentEra.newDeck.Count > 0) {            
             deckMgt.changeDeck(currentEra.newDeck, currentEra.shuffleDeck);
+            if(currentEra.addCardAt23 != null) {
+                deckMgt.addCardbtwn23(currentEra.addCardAt23);
+            }
         }
         if(currentEra.relatedMusic != null) {
+           audioMgt.musicVolume = currentEra.volume;
            audioMgt.playMusic(currentEra.relatedMusic);
         }
         cardInterfaceMgt.setEra(currentEra);
@@ -141,7 +145,7 @@ public class Game:MonoBehaviour
         }
         
         if(currentCard == null && currentEra.isFinalEra) {
-            Invoke("ending",1.0f);
+            Invoke("ending",1.1f);
         } 
         if(currentCard == null) {
             return;
@@ -233,28 +237,68 @@ public class Game:MonoBehaviour
         Invoke("newCard", delayNewCard);
     }
 
-    protected void ending() {
+    protected void ending() {       
+        /**
+        Henri VIII	Religion	Peuple
+        La fantasmée	25/30	25/30	25/30
+
+        La mère	0/25	25/30	25/30
+        La victime de cromwell	25/30	25/30	0/25
+        La Reine	25/30	0/25	25/30
+
+        La victime de cromwell	25/30	0/25	0/25
+        La Sainte	0/25	25/30	0/25
+        La généreuse	0/25	0/25	25/30
+                    
+       
+        La lambda	10/25	10/25	10/25
+        La putain	0/10	0/10	0/10
+        **/
+        if(levelReligion > 24 && levelPeople > 24 && levelHenry > 24) {
+            GlobalParameters.ending = "fantasme";
+            SceneManager.LoadScene("Ending", LoadSceneMode.Single);
+            return;
+        }
+
         if(levelReligion > 24 && levelPeople > 24) {
-            SceneManager.LoadScene("Mere", LoadSceneMode.Single);
+            GlobalParameters.ending = "mere";
+            SceneManager.LoadScene("Ending", LoadSceneMode.Single);
+            return;
+        }
+        if(levelReligion > 24 && levelHenry > 24) {
+            GlobalParameters.ending = "victime";
+            SceneManager.LoadScene("Ending", LoadSceneMode.Single);
+            return;
+        }
+        if(levelHenry > 24 && levelPeople > 24) {
+             GlobalParameters.ending = "reine";
+            SceneManager.LoadScene("Ending", LoadSceneMode.Single);
+            return;
+        }
+
+        if(levelHenry > 24) {
+            GlobalParameters.ending = "victime";
+            SceneManager.LoadScene("Ending", LoadSceneMode.Single);
             return;
         }
         if(levelReligion > 24) {
-            SceneManager.LoadScene("Sainte", LoadSceneMode.Single);
-            return;
-        }
-        if(levelHenry > 24) {
-            SceneManager.LoadScene("Victime", LoadSceneMode.Single);
+            GlobalParameters.ending = "sainte";
+            SceneManager.LoadScene("Ending", LoadSceneMode.Single);
             return;
         }
         if(levelPeople > 24) {
-            SceneManager.LoadScene("Genereuse", LoadSceneMode.Single);
+            GlobalParameters.ending = "genereuse";
+            SceneManager.LoadScene("Ending", LoadSceneMode.Single);
             return;
         }
-        if(levelPeople > 15 && levelReligion > 15 && levelHenry > 15 ) {
-            SceneManager.LoadScene("Lambda", LoadSceneMode.Single);
+
+        if(levelPeople > 9 && levelReligion > 9 && levelHenry > 9 ) {
+            GlobalParameters.ending = "lambda";
+            SceneManager.LoadScene("Ending", LoadSceneMode.Single);
             return;
         }
-        SceneManager.LoadScene("Putain", LoadSceneMode.Single);
+        GlobalParameters.ending = "putain";
+        SceneManager.LoadScene("Ending", LoadSceneMode.Single);
         return;
         
         

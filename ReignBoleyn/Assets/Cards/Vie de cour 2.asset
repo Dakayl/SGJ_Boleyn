@@ -18,9 +18,10 @@ MonoBehaviour:
   textChoiceLeft: Vous la nourrissez au sein
   textChoiceRight: "Vous la confiez \xE0 sa nourrice"
   playWhenDiscovered: {fileID: 0}
+  act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 0}
   addLaterWhenSwipeLeft: {fileID: 0}
-  addRandomWhenSwipeLeft: {fileID: 0}
+  addRandomWhenSwipeLeft: {fileID: 11400000, guid: c417afcdda8327f4d9a1b86ba3efcea9, type: 2}
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}
   changeEraWhenSwipeLeft: {fileID: 0}
@@ -29,7 +30,7 @@ MonoBehaviour:
   addToPeopleWhenSwipeLeft: 2
   addNextWhenSwipeRight: {fileID: 0}
   addLaterWhenSwipeRight: {fileID: 0}
-  addRandomWhenSwipeRight: {fileID: 0}
+  addRandomWhenSwipeRight: {fileID: 11400000, guid: c417afcdda8327f4d9a1b86ba3efcea9, type: 2}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}
   changeEraWhenSwipeRight: {fileID: 0}

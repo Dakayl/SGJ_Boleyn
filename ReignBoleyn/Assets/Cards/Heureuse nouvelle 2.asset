@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: Heureuse nouvelle 2
   m_EditorClassIdentifier: 
   title: Heureuse nouvelle
-  description: "F\xE9licitations, vous \xEAtes enceinte ! &"
+  description: "F\xE9licitations, vous \xEAtes enceinte ! Comment souhaitez-vous
+    le f\xEAter ?"
   characterImage: {fileID: 21300000, guid: 3426806cab605f34ba3f4697e7bcb993, type: 3}
   textChoiceLeft: Avec une procession religieuse
   textChoiceRight: Avec une grande distribution de pain
-  playWhenDiscovered: {fileID: 8300000, guid: 102822851814b4a4a858608b62a8afb2, type: 3}
+  playWhenDiscovered: {fileID: 0}
   act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 0}
   addLaterWhenSwipeLeft: {fileID: 11400000, guid: de7cb7167c81f9e4f96f0d1143c12b91, type: 2}

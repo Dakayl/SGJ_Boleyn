@@ -8,6 +8,7 @@ using System.Collections.Generic;
 public class Era:ScriptableObject
 {
    public AudioClip relatedMusic;
+   [Range(0, 1.0f)] public float volume;
    public int date;
    public string nameAct;
    public Sprite background;
@@ -15,6 +16,7 @@ public class Era:ScriptableObject
    public Sprite deckBack;
    public List<ChoiceCard> newDeck;
    public bool shuffleDeck = true;
+   public ChoiceCard addCardAt23;
    public ChoiceCard endingHenriLovesYouAct2;
    public ChoiceCard endingHenriDoesntLoveYouAct2;
    public List<ChoiceCard> subDeckTourAct3;
