@@ -9,14 +9,20 @@ EditorBuildSettings:
     path: Assets/Scenes/StartScene.unity
     guid: 779dbfea760a6e140811213c9381ad02
   - enabled: 1
+    path: Assets/Scenes/Introduction.unity
+    guid: 24b386719e029dc44b7437fc06fdd02e
+  - enabled: 1
     path: Assets/Scenes/GameScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/GameCreditsScene.unity
-    guid: 8f4d3a7fa8af15c46b0d9afa16bb42f3
+    path: Assets/Scenes/Conclusion.unity
+    guid: 6ae4d8e131fdeab429e696bd38e8116d
   - enabled: 1
     path: Assets/Scenes/Ending.unity
     guid: 3923156f26d75aa4da0f6e74818e1450
+  - enabled: 1
+    path: Assets/Scenes/GameCreditsScene.unity
+    guid: 8f4d3a7fa8af15c46b0d9afa16bb42f3
   - enabled: 0
     path: Assets/Scenes/Fins/Genereuse.unity
     guid: 14f8c40be8ceced4285368d0977d37b4

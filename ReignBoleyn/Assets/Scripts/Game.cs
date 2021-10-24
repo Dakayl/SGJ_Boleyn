@@ -256,49 +256,49 @@ public class Game:MonoBehaviour
         **/
         if(levelReligion > 24 && levelPeople > 24 && levelHenry > 24) {
             GlobalParameters.ending = "fantasme";
-            SceneManager.LoadScene("Ending", LoadSceneMode.Single);
+            SceneManager.LoadScene("Conclusion", LoadSceneMode.Single);
             return;
         }
 
         if(levelReligion > 24 && levelPeople > 24) {
             GlobalParameters.ending = "mere";
-            SceneManager.LoadScene("Ending", LoadSceneMode.Single);
+            SceneManager.LoadScene("Conclusion", LoadSceneMode.Single);
             return;
         }
         if(levelReligion > 24 && levelHenry > 24) {
             GlobalParameters.ending = "victime";
-            SceneManager.LoadScene("Ending", LoadSceneMode.Single);
+            SceneManager.LoadScene("Conclusion", LoadSceneMode.Single);
             return;
         }
         if(levelHenry > 24 && levelPeople > 24) {
              GlobalParameters.ending = "reine";
-            SceneManager.LoadScene("Ending", LoadSceneMode.Single);
+            SceneManager.LoadScene("Conclusion", LoadSceneMode.Single);
             return;
         }
 
         if(levelHenry > 24) {
             GlobalParameters.ending = "victime";
-            SceneManager.LoadScene("Ending", LoadSceneMode.Single);
+            SceneManager.LoadScene("Conclusion", LoadSceneMode.Single);
             return;
         }
         if(levelReligion > 24) {
             GlobalParameters.ending = "sainte";
-            SceneManager.LoadScene("Ending", LoadSceneMode.Single);
+            SceneManager.LoadScene("Conclusion", LoadSceneMode.Single);
             return;
         }
         if(levelPeople > 24) {
             GlobalParameters.ending = "genereuse";
-            SceneManager.LoadScene("Ending", LoadSceneMode.Single);
+            SceneManager.LoadScene("Conclusion", LoadSceneMode.Single);
             return;
         }
 
         if(levelPeople > 9 && levelReligion > 9 && levelHenry > 9 ) {
             GlobalParameters.ending = "lambda";
-            SceneManager.LoadScene("Ending", LoadSceneMode.Single);
+            SceneManager.LoadScene("Conclusion", LoadSceneMode.Single);
             return;
         }
         GlobalParameters.ending = "putain";
-        SceneManager.LoadScene("Ending", LoadSceneMode.Single);
+        SceneManager.LoadScene("Conclusion", LoadSceneMode.Single);
         return;
         
         
