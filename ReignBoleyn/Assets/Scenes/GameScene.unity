@@ -180,7 +180,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Choice Left
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec7e66b625c439644bb2314150a8bf0a, type: 2}
   m_sharedMaterial: {fileID: 4706694977030562352, guid: ec7e66b625c439644bb2314150a8bf0a, type: 2}
@@ -389,7 +389,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec7e66b625c439644bb2314150a8bf0a, type: 2}
   m_sharedMaterial: {fileID: 4706694977030562352, guid: ec7e66b625c439644bb2314150a8bf0a, type: 2}
@@ -598,7 +598,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec7e66b625c439644bb2314150a8bf0a, type: 2}
   m_sharedMaterial: {fileID: 4706694977030562352, guid: ec7e66b625c439644bb2314150a8bf0a, type: 2}
@@ -732,7 +732,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 83c40cbf735018345915bec69a0bc6c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -807,7 +807,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: a993d0d4196461d4abccfb253b18d3ca, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1048,7 +1048,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2dab1ea8c6f85ba409e3cb9cc20a6175, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bef267f39e8cc184e909234721d7ea68, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1372,7 +1372,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1532
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec7e66b625c439644bb2314150a8bf0a, type: 2}
   m_sharedMaterial: {fileID: 4706694977030562352, guid: ec7e66b625c439644bb2314150a8bf0a, type: 2}
@@ -1905,7 +1905,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Frustration de Henri VIII
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0d05cd5f10425ad43acdc4c4d23c3f1e, type: 2}
   m_sharedMaterial: {fileID: 6290018392419823262, guid: 0d05cd5f10425ad43acdc4c4d23c3f1e, type: 2}
@@ -2288,7 +2288,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec7e66b625c439644bb2314150a8bf0a, type: 2}
   m_sharedMaterial: {fileID: 4706694977030562352, guid: ec7e66b625c439644bb2314150a8bf0a, type: 2}
@@ -2395,7 +2395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67cd51d31718e8a4a9c40b846e78e362, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentEra: {fileID: 11400000, guid: f29d41511ba8b0e46931d117a02f4622, type: 2}
+  currentEra: {fileID: 11400000, guid: 24800689049498b4c8e7040e20703f3c, type: 2}
   levelHenry: 0
   levelPeople: 0
   levelReligion: 0
@@ -2489,8 +2489,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\"Je ne peux d\xE9cid\xE9ment vivre sans vous.\" Le roi vous envoie une
-    escorte pour vous ramener aupr\xE8s de lui, vous allez devenir sa reine."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec7e66b625c439644bb2314150a8bf0a, type: 2}
   m_sharedMaterial: {fileID: 4706694977030562352, guid: ec7e66b625c439644bb2314150a8bf0a, type: 2}
@@ -2624,7 +2623,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: TITLE
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0d05cd5f10425ad43acdc4c4d23c3f1e, type: 2}
   m_sharedMaterial: {fileID: 6290018392419823262, guid: 0d05cd5f10425ad43acdc4c4d23c3f1e, type: 2}
@@ -2758,7 +2757,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: -1
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec7e66b625c439644bb2314150a8bf0a, type: 2}
   m_sharedMaterial: {fileID: 4706694977030562352, guid: ec7e66b625c439644bb2314150a8bf0a, type: 2}
@@ -2892,7 +2891,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec7e66b625c439644bb2314150a8bf0a, type: 2}
   m_sharedMaterial: {fileID: 4706694977030562352, guid: ec7e66b625c439644bb2314150a8bf0a, type: 2}
@@ -3251,7 +3250,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: -1
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec7e66b625c439644bb2314150a8bf0a, type: 2}
   m_sharedMaterial: {fileID: 4706694977030562352, guid: ec7e66b625c439644bb2314150a8bf0a, type: 2}
@@ -3451,7 +3450,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Choice Right
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec7e66b625c439644bb2314150a8bf0a, type: 2}
   m_sharedMaterial: {fileID: 4706694977030562352, guid: ec7e66b625c439644bb2314150a8bf0a, type: 2}
@@ -3623,7 +3622,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 28148fb32a0dfc24e8ce1312a8dda119, type: 3}
+  m_Sprite: {fileID: 21300000, guid: aca25d4bc312b6f479e8d2ca3a20e7bd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
