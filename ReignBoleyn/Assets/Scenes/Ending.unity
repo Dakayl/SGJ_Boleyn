@@ -180,7 +180,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a993d0d4196461d4abccfb253b18d3ca, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c6184c023b1ef964290e19c4d216ba63, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -262,7 +262,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &17819192
 GameObject:
@@ -445,10 +445,9 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1653622993}
+  m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &476391153
 GameObject:
@@ -484,8 +483,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 100}
-  m_SizeDelta: {x: 1800, y: 50}
+  m_AnchoredPosition: {x: 40, y: 0}
+  m_SizeDelta: {x: 1490, y: 650}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &476391155
 MonoBehaviour:
@@ -543,15 +542,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 1024
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -627,8 +626,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -200}
-  m_SizeDelta: {x: 1000, y: 50}
+  m_AnchoredPosition: {x: 0, y: -40}
+  m_SizeDelta: {x: 620, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1519181214
 MonoBehaviour:
@@ -650,7 +649,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Votre repr\xE9sentation"
+  m_text: La reine lambda
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0d05cd5f10425ad43acdc4c4d23c3f1e, type: 2}
   m_sharedMaterial: {fileID: 6290018392419823262, guid: 0d05cd5f10425ad43acdc4c4d23c3f1e, type: 2}
@@ -677,8 +676,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 102
-  m_fontSizeBase: 102
+  m_fontSize: 89
+  m_fontSizeBase: 89
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -751,12 +750,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1653622992}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 17819196}
-  m_Father: {fileID: 343710682}
+  m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1653622994
@@ -771,3 +770,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9636a9b824d5245b153c40f78938d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  imageFantasme: {fileID: 21300000, guid: 706a8779be101b746abb235940aa25a5, type: 3}
+  imageMere: {fileID: 21300000, guid: d4acbaf4165da98498480aa3f46f0166, type: 3}
+  imageVictime: {fileID: 21300000, guid: ceb9cbca26ecc0d4f9dc77d089420b45, type: 3}
+  imageReine: {fileID: 21300000, guid: 4fe2cf1fcd6c6a74fbbadaa38f847f48, type: 3}
+  imageSainte: {fileID: 21300000, guid: 13c816c0cb3d1b94ca4feaabb650a202, type: 3}
+  imageGenereuse: {fileID: 21300000, guid: a9641c2a0e029484a8da9b83fe4b5321, type: 3}
+  imageLambda: {fileID: 21300000, guid: c6184c023b1ef964290e19c4d216ba63, type: 3}
+  imagePutain: {fileID: 21300000, guid: 706a8779be101b746abb235940aa25a5, type: 3}
