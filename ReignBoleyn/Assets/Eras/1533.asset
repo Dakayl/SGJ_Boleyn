@@ -16,7 +16,7 @@ MonoBehaviour:
   volume: 0.6
   date: 1533
   nameAct: Acte 2
-  background: {fileID: 21300000, guid: caa7696ca3614c14b83b6260f1a6385e, type: 3}
+  background: {fileID: 21300000, guid: ec10cd15f4e464c48857538d3d5af19b, type: 3}
   cardBack: {fileID: 21300000, guid: fc3393c04e5450d449fc693ce63060c5, type: 3}
   deckBack: {fileID: 21300000, guid: 130a4fa64781e4f4992c8eb6f95d315b, type: 3}
   newDeck:

@@ -75,10 +75,9 @@ public class CardUI:MonoBehaviour
     public void ShowPanels(){
         audioMgt.playEffect(cardSound);
         resetPanels();        
-        resetSituation();     
+        resetSituation();   
+        playDiscoverSound();  
     }
-    
-   
 
     protected void playDiscoverSound(){
         if(currentCard.playWhenDiscovered != null) {
