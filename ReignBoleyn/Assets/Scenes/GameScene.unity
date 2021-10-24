@@ -732,7 +732,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 83c40cbf735018345915bec69a0bc6c4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a4f8c4e547958a340a851356e2f0b5ab, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2395,7 +2395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67cd51d31718e8a4a9c40b846e78e362, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentEra: {fileID: 11400000, guid: f29d41511ba8b0e46931d117a02f4622, type: 2}
+  currentEra: {fileID: 11400000, guid: 42bf6dde1f2dee4448a490d058d5a118, type: 2}
   levelHenry: 0
   levelPeople: 0
   levelReligion: 0
