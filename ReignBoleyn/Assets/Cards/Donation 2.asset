@@ -18,6 +18,7 @@ MonoBehaviour:
   textChoiceLeft: Vous priez pour que le peuple ne meure pas de faim
   textChoiceRight: Vous prenez sur votre argent pour nourrir le peuple
   playWhenDiscovered: {fileID: 0}
+  act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 0}
   addLaterWhenSwipeLeft: {fileID: 0}
   addRandomWhenSwipeLeft: {fileID: 0}
@@ -31,7 +32,7 @@ MonoBehaviour:
   addLaterWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
-  playWhenSwipedRight: {fileID: 0}
+  playWhenSwipedRight: {fileID: 8300000, guid: c7c33ad0034eb6846931cb5c4d3d9273, type: 3}
   changeEraWhenSwipeRight: {fileID: 0}
   addToHenryWhenSwipeRight: 0
   addToReligionWhenSwipeRight: 0
