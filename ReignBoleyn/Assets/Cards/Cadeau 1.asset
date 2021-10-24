@@ -18,11 +18,12 @@ MonoBehaviour:
   textChoiceLeft: Vous le portez devant la reine
   textChoiceRight: Vous le portez dans vos appartements uniquement
   playWhenDiscovered: {fileID: 0}
+  act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 0}
   addLaterWhenSwipeLeft: {fileID: 0}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
-  playWhenSwipedLeft: {fileID: 0}
+  playWhenSwipedLeft: {fileID: 8300000, guid: 55e6898c6cbe78646abaf4da980ba2a0, type: 3}
   changeEraWhenSwipeLeft: {fileID: 0}
   addToHenryWhenSwipeLeft: 2
   addToReligionWhenSwipeLeft: 0
@@ -31,7 +32,7 @@ MonoBehaviour:
   addLaterWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
-  playWhenSwipedRight: {fileID: 0}
+  playWhenSwipedRight: {fileID: 8300000, guid: c7c33ad0034eb6846931cb5c4d3d9273, type: 3}
   changeEraWhenSwipeRight: {fileID: 0}
   addToHenryWhenSwipeRight: -1
   addToReligionWhenSwipeRight: 0

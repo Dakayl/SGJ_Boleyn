@@ -18,11 +18,12 @@ MonoBehaviour:
   textChoiceLeft: Vous l'y accompagnez, c'est votre devoir
   textChoiceRight: "Vous vous \xE9clipsez pour entendre les po\xE8mes du roi"
   playWhenDiscovered: {fileID: 0}
+  act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 0}
   addLaterWhenSwipeLeft: {fileID: 0}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
-  playWhenSwipedLeft: {fileID: 0}
+  playWhenSwipedLeft: {fileID: 8300000, guid: be931ef99bf1ed042882c9aea5c80e2c, type: 3}
   changeEraWhenSwipeLeft: {fileID: 0}
   addToHenryWhenSwipeLeft: 0
   addToReligionWhenSwipeLeft: 1
@@ -31,7 +32,7 @@ MonoBehaviour:
   addLaterWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
-  playWhenSwipedRight: {fileID: 0}
+  playWhenSwipedRight: {fileID: 8300000, guid: a8dbfc9a408c34848a8c9ef2338c11c7, type: 3}
   changeEraWhenSwipeRight: {fileID: 0}
   addToHenryWhenSwipeRight: 2
   addToReligionWhenSwipeRight: -1

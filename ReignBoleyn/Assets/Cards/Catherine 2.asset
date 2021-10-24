@@ -18,11 +18,12 @@ MonoBehaviour:
   textChoiceLeft: "Vous la d\xE9fiez"
   textChoiceRight: Vous vous excusez
   playWhenDiscovered: {fileID: 0}
+  act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 0}
   addLaterWhenSwipeLeft: {fileID: 0}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
-  playWhenSwipedLeft: {fileID: 0}
+  playWhenSwipedLeft: {fileID: 8300000, guid: 73ab2eb1ecaa9704ab86da69b3b6f744, type: 3}
   changeEraWhenSwipeLeft: {fileID: 0}
   addToHenryWhenSwipeLeft: 0
   addToReligionWhenSwipeLeft: 0
@@ -31,7 +32,7 @@ MonoBehaviour:
   addLaterWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
-  playWhenSwipedRight: {fileID: 0}
+  playWhenSwipedRight: {fileID: 8300000, guid: 7ae47a9310ba67742976bc2f614b36f9, type: 3}
   changeEraWhenSwipeRight: {fileID: 0}
   addToHenryWhenSwipeRight: 0
   addToReligionWhenSwipeRight: 0

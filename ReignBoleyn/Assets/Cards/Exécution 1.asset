@@ -17,7 +17,7 @@ MonoBehaviour:
   characterImage: {fileID: 21300000, guid: c9971dbd924334c47aa3a43d2ced8ed9, type: 3}
   textChoiceLeft: "Vous \xEAtes en paix avec votre situation"
   textChoiceRight: "Vous \xEAtes pleine de ranc\u0153ur envers le roi et Cromwell"
-  playWhenDiscovered: {fileID: 0}
+  playWhenDiscovered: {fileID: 8300000, guid: daca54c93e991c643b4958d2d99fe88e, type: 3}
   act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 0}
   addLaterWhenSwipeLeft: {fileID: 0}

@@ -18,7 +18,7 @@ MonoBehaviour:
   characterImage: {fileID: 21300000, guid: c9971dbd924334c47aa3a43d2ced8ed9, type: 3}
   textChoiceLeft: "Vous montez la t\xEAte haute"
   textChoiceRight: Vous pleurez en voyant le bourreau
-  playWhenDiscovered: {fileID: 0}
+  playWhenDiscovered: {fileID: 8300000, guid: 0bdf2a742a1f8cd4282689b4d3b54074, type: 3}
   act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 0}
   addLaterWhenSwipeLeft: {fileID: 0}

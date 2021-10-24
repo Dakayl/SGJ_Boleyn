@@ -18,7 +18,8 @@ MonoBehaviour:
   characterImage: {fileID: 21300000, guid: 96db8d6dbf2ef224bb55c4ed91d6cfa5, type: 3}
   textChoiceLeft: "Vous vous montrez touch\xE9e de l'affection du roi"
   textChoiceRight: "Vous \xE9num\xE9rez les avantages \xE0 en tirer"
-  playWhenDiscovered: {fileID: 0}
+  playWhenDiscovered: {fileID: 8300000, guid: 60a4fe15797a8b64e863abbf79e77c5e, type: 3}
+  act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 0}
   addLaterWhenSwipeLeft: {fileID: 0}
   addRandomWhenSwipeLeft: {fileID: 0}
@@ -37,4 +38,3 @@ MonoBehaviour:
   addToHenryWhenSwipeRight: 0
   addToReligionWhenSwipeRight: 2
   addToPeopleWhenSwipeRight: -1
-

@@ -18,7 +18,7 @@ MonoBehaviour:
   characterImage: {fileID: 21300000, guid: 943645e5437b95c4d949698d4c5db945, type: 3}
   textChoiceLeft: Vous refermez la porte et partez sans rien dire
   textChoiceRight: "Vous lui faites une sc\xE8ne"
-  playWhenDiscovered: {fileID: 0}
+  playWhenDiscovered: {fileID: 8300000, guid: c742c45609556e343b9c4d077ac5bb2f, type: 3}
   act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 0}
   addLaterWhenSwipeLeft: {fileID: 11400000, guid: 0d8519b484c628544b6e3381e7872b93, type: 2}

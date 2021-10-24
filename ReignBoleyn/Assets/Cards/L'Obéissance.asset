@@ -18,7 +18,7 @@ MonoBehaviour:
   characterImage: {fileID: 21300000, guid: 83c40cbf735018345915bec69a0bc6c4, type: 3}
   textChoiceLeft: Sans le pape, vous aurez plus de pouvoir !
   textChoiceRight: Sans le pape, les Anglais seront plus heureux
-  playWhenDiscovered: {fileID: 0}
+  playWhenDiscovered: {fileID: 8300000, guid: c7c33ad0034eb6846931cb5c4d3d9273, type: 3}
   act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 11400000, guid: af68148fe78675e40b8b619239adf451, type: 2}
   addLaterWhenSwipeLeft: {fileID: 0}

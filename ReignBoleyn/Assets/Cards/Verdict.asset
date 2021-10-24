@@ -17,7 +17,7 @@ MonoBehaviour:
   characterImage: {fileID: 21300000, guid: f9f94f449b142974984f55efe2a47e6c, type: 3}
   textChoiceLeft: "Vous protestez une \xE9ni\xE8me fois"
   textChoiceRight: "Vous \xEAtes r\xE9sign\xE9e"
-  playWhenDiscovered: {fileID: 0}
+  playWhenDiscovered: {fileID: 8300000, guid: c3d483f2168843d4aae2e8833a98cfc0, type: 3}
   act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 0}
   addLaterWhenSwipeLeft: {fileID: 0}

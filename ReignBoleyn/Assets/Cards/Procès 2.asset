@@ -18,7 +18,7 @@ MonoBehaviour:
   textChoiceLeft: "Vous \xEAtes outr\xE9e, vous n'auriez jamais viol\xE9 le sacrement
     du mariage"
   textChoiceRight: "Perdue pour perdue, vous r\xE9pondez avec ironie"
-  playWhenDiscovered: {fileID: 0}
+  playWhenDiscovered: {fileID: 8300000, guid: daca54c93e991c643b4958d2d99fe88e, type: 3}
   act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 0}
   addLaterWhenSwipeLeft: {fileID: 0}

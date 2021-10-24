@@ -18,7 +18,7 @@ MonoBehaviour:
   characterImage: {fileID: 21300000, guid: ec534184caee5fb4ba59c469cdb9fdcc, type: 3}
   textChoiceLeft: Vous le saluez froidement
   textChoiceRight: Vous clamez votre innocence
-  playWhenDiscovered: {fileID: 0}
+  playWhenDiscovered: {fileID: 8300000, guid: f781be6b98782cd47bfd044184be06bd, type: 3}
   act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 0}
   addLaterWhenSwipeLeft: {fileID: 0}

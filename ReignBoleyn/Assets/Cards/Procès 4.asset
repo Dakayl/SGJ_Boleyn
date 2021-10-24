@@ -18,7 +18,7 @@ MonoBehaviour:
   characterImage: {fileID: 21300000, guid: 257aacb1971be8f4b82815129228cf61, type: 3}
   textChoiceLeft: Vous les implorez des yeux
   textChoiceRight: "Vos yeux leur lancent des \xE9clairs"
-  playWhenDiscovered: {fileID: 0}
+  playWhenDiscovered: {fileID: 8300000, guid: 0bdf2a742a1f8cd4282689b4d3b54074, type: 3}
   act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 0}
   addLaterWhenSwipeLeft: {fileID: 0}

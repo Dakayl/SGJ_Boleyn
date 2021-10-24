@@ -17,7 +17,7 @@ MonoBehaviour:
   characterImage: {fileID: 21300000, guid: 257aacb1971be8f4b82815129228cf61, type: 3}
   textChoiceLeft: "Vous en riez. Et pourquoi pas avec votre p\xE8re ?"
   textChoiceRight: "Vous protestez de l'horreur de ce qu'on sugg\xE8re"
-  playWhenDiscovered: {fileID: 0}
+  playWhenDiscovered: {fileID: 8300000, guid: 0bdf2a742a1f8cd4282689b4d3b54074, type: 3}
   act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 0}
   addLaterWhenSwipeLeft: {fileID: 0}
