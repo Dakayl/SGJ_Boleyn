@@ -18,6 +18,40 @@ MonoBehaviour:
   background: {fileID: 21300000, guid: 4f47a285154fed547974701ee8c58221, type: 3}
   cardBack: {fileID: 21300000, guid: 2dab1ea8c6f85ba409e3cb9cc20a6175, type: 3}
   deckBack: {fileID: 21300000, guid: 28148fb32a0dfc24e8ce1312a8dda119, type: 3}
-  newDeck: []
-  shuffleDeck: 1
-  isFinal: 1
+  newDeck:
+  - {fileID: 11400000, guid: fe9d349c3a4740149bd48cb4ac3ecc07, type: 2}
+  - {fileID: 11400000, guid: 6af493ef8bd1fed4a810facf69aa0342, type: 2}
+  - {fileID: 11400000, guid: 020e59e5eede6354d984e68e8deedbdc, type: 2}
+  - {fileID: 11400000, guid: d97b933a5ab74994ab4512feffd26b57, type: 2}
+  - {fileID: 11400000, guid: 65dc6ae96ee4a404caa9fa89b337b4ae, type: 2}
+  - {fileID: 11400000, guid: 4266f6fc048f2ca409884e2c6a91b94d, type: 2}
+  - {fileID: 11400000, guid: 1b2a4325472164d4f98fff2f8541d888, type: 2}
+  - {fileID: 11400000, guid: b50338b03de3ba2449576e946ee8a2e0, type: 2}
+  - {fileID: 11400000, guid: c4d8cc5bff4028d4ba11a6c409583f3c, type: 2}
+  shuffleDeck: 0
+  endingHenriLovesYouAct2: {fileID: 0}
+  endingHenriDoesntLoveYouAct2: {fileID: 0}
+  subDeckTourAct3:
+  - {fileID: 11400000, guid: 6e0829d9181a74e43924860b59df53b4, type: 2}
+  - {fileID: 11400000, guid: 020e59e5eede6354d984e68e8deedbdc, type: 2}
+  - {fileID: 11400000, guid: bbfd49fc582bda54a8a75162de8a0a87, type: 2}
+  - {fileID: 11400000, guid: fe9d349c3a4740149bd48cb4ac3ecc07, type: 2}
+  - {fileID: 11400000, guid: f722f7f05f6dd8b4d8427ca2c683c6eb, type: 2}
+  - {fileID: 11400000, guid: 6af493ef8bd1fed4a810facf69aa0342, type: 2}
+  subDeckProcesAct3:
+  - {fileID: 11400000, guid: 65dc6ae96ee4a404caa9fa89b337b4ae, type: 2}
+  - {fileID: 11400000, guid: d97b933a5ab74994ab4512feffd26b57, type: 2}
+  - {fileID: 11400000, guid: cf41aeca8b32ac646898aff07d4322a5, type: 2}
+  - {fileID: 11400000, guid: c2b3e3e6caf46a0409fa022e3ab93391, type: 2}
+  subDeckVerdictAct3:
+  - {fileID: 11400000, guid: 4266f6fc048f2ca409884e2c6a91b94d, type: 2}
+  subDeckExecutionAct3:
+  - {fileID: 11400000, guid: 1b2a4325472164d4f98fff2f8541d888, type: 2}
+  - {fileID: 11400000, guid: d92f205e6fe47624cbacf52c55561359, type: 2}
+  - {fileID: 11400000, guid: b50338b03de3ba2449576e946ee8a2e0, type: 2}
+  - {fileID: 11400000, guid: 7b6151a405ce19a49a156f71321cdd3d, type: 2}
+  subDeckFinalAct3:
+  - {fileID: 11400000, guid: c4d8cc5bff4028d4ba11a6c409583f3c, type: 2}
+  titleColor:
+    serializedVersion: 2
+    rgba: 4278190080

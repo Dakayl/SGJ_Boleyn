@@ -26,8 +26,9 @@ public class CardDragDrop:MonoBehaviour, IPointerUpHandler, IPointerDownHandler
     private Color32 emptyColor = new Color32(0,0,0,0);
     private TextMeshProUGUI description;
     private TextMeshProUGUI title;
+    public delegate void ReadyToAct();
+    public static event ReadyToAct OnReadyToAct;
     public void Start(){
-
     }
 
     public void Awake(){
@@ -73,10 +74,13 @@ public class CardDragDrop:MonoBehaviour, IPointerUpHandler, IPointerDownHandler
         description.color = blackColor;
         title.color = blackColor;
         cardBack.enabled = true;
-        character.enabled = false;
+        character.enabled = true;
         description.enabled = true;
         title.enabled = true;     
         isDraggable = true;
+        if(OnReadyToAct != null) {
+            OnReadyToAct();
+        }
     }
 
     void Update()
@@ -140,7 +144,7 @@ public class CardDragDrop:MonoBehaviour, IPointerUpHandler, IPointerDownHandler
         title.enabled = false;
         character.enabled = false;
         cardBack.enabled = false;
-        Invoke("reset", 0.5f);
+        Invoke("reset", 1.0f);
         yield break;
     }
 

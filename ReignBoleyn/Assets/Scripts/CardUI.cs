@@ -23,8 +23,15 @@ public class CardUI:MonoBehaviour
     private float maxValueHenry = 30;
     private float maxValuePeople = 30;
     private float maxValueReligion = 50;
-    [SerializeField] private float beforeTitleFade = 2.0f;
+    [SerializeField] private float beforeTitleFade = 1.5f;
     [SerializeField] private float titleFadeDuration = 4.0f;
+    private Color32 cleanColor = new Color32(255,255,255,255);
+    private Color32 blackColor = new Color32(0,0,0,255);
+    private Color32 emptyColor = new Color32(0,0,0,0);
+    [SerializeField] private float bgFadeDuration = 0.9f;
+    private bool hasDisabledBg = false;
+    [SerializeField] private AudioClip cardSound;
+    [SerializeField] private Audio audioMgt;
 
 
     protected void Awake()
@@ -49,6 +56,7 @@ public class CardUI:MonoBehaviour
     protected void Start(){
         CardDragDrop.OnDragCard += StartSwipe;
         CardDragDrop.OnDropCard += StopSwipe;
+        CardDragDrop.OnReadyToAct += ShowPanels;
         Color tint = new Color32(0,90,135,100);
         henryLevel.color = tint;
         peopleLevel.color = tint;
@@ -57,11 +65,30 @@ public class CardUI:MonoBehaviour
 
     public void setCard(ChoiceCard card) {
         currentCard = card;
-        title.SetText("..."); 
-        leftPanel.SetText("..."); 
-        rightPanel.SetText("...");
-        description.SetText("..."); 
+        
+    }
 
+    public void ShowPanels(){
+        audioMgt.playEffect(cardSound);
+        resetPanels();        
+        resetSituation();     
+    }
+    
+   
+
+    protected void playDiscoverSound(){
+        if(currentCard.playWhenDiscovered != null) {
+            audioMgt.playEffect(currentCard.playWhenDiscovered);
+        }
+    }
+
+    public void resetSituation() {
+        if(currentCard.textChoiceLeft != null) {
+           leftPanel.SetText(currentCard.textChoiceLeft); 
+        } 
+        if(currentCard.textChoiceRight != null) {
+           rightPanel.SetText(currentCard.textChoiceRight); 
+        }
         if(currentCard.description != null) {
            description.SetText(currentCard.description); 
         }
@@ -70,41 +97,27 @@ public class CardUI:MonoBehaviour
         }
         if(currentCard.characterImage != null) {          
             setCharacter(currentCard.characterImage); 
-            character.enabled = true;
-        } else {
-            character.enabled = false;
-        }
-        if(currentCard.textChoiceLeft != null) {
-           leftPanel.SetText(currentCard.textChoiceLeft); 
-        } 
-        if(currentCard.textChoiceRight != null) {
-           rightPanel.SetText(currentCard.textChoiceRight); 
-        }
+        }       
         leftPanel.setHenry(currentCard.addToHenryWhenSwipeLeft);
         leftPanel.setPeople(currentCard.addToPeopleWhenSwipeLeft);
         leftPanel.setReligion(currentCard.addToReligionWhenSwipeLeft);
         rightPanel.setHenry(currentCard.addToHenryWhenSwipeRight);
         rightPanel.setPeople(currentCard.addToPeopleWhenSwipeRight);
         rightPanel.setReligion(currentCard.addToReligionWhenSwipeRight);
-        resetPanels();
     }
 
      protected void resetPanels(){
-
-        rightPanel.showSmaller();
-        leftPanel.showSmaller();
-        rightPanel.enabled = false;  
-        leftPanel.enabled = false;  
-
+        rightPanel.forceSmaller();
+        leftPanel.forceSmaller();
+        rightPanel.renable();
+        leftPanel.renable();
     }
 
     protected void StartSwipe(bool isMovingLeft, bool isSwiping){
         if(isMovingLeft){
             rightPanel.showSmaller();
-            StartSwipeLeft();
         } else {
             leftPanel.showSmaller();
-            StartSwipeRight();
         }
         if(isSwiping) {
             if(isMovingLeft) {
@@ -112,14 +125,30 @@ public class CardUI:MonoBehaviour
             } else {
                 rightPanel.showBigger();
             }
+            
         }
+    }
+    public void prepareEra() {
+        dateEra.enabled = false;
+        titleEra.enabled = false;
+        deckBack.enabled = false;
+        rightPanel.enabled = false;  
+        rightPanel.fullDisable();
+        leftPanel.enabled = false; 
+        leftPanel.fullDisable();
+        hasDisabledBg = true;
+        StartCoroutine(this.StartFadeBg());
     }
 
     public void setEra(Era currentEra) {
-        resetPanels();
+        
         if(currentEra.background != null){
             setBackground(currentEra.background);
         }
+        if(hasDisabledBg) {
+            StartCoroutine(this.EndFadeBg());
+        }
+    
         if(currentEra.cardBack != null){
             setCardBackground(currentEra.cardBack);
         }
@@ -128,22 +157,19 @@ public class CardUI:MonoBehaviour
         }
         if(currentEra.date > 0){
             dateEra.SetText( currentEra.date.ToString() );
-            dateEra.enabled = true;
+            dateEra.color = currentEra.titleColor;
         }
         if(currentEra.nameAct != null){
             titleEra.SetText( currentEra.nameAct );
-            titleEra.enabled = true;
-        }
-        if(dateEra.enabled || titleEra.enabled) {
-            Invoke("goFading", beforeTitleFade); 
+            titleEra.color = currentEra.titleColor;
         }
     }
 
-    public void goFading() {
-        StartCoroutine(this.StartFade());
+    public void goTitleFading() {
+        StartCoroutine(this.StartFadeTitle());
     }
 
-    public IEnumerator StartFade()
+    public IEnumerator StartFadeTitle()
     {
         float currentTime = 0;
         while (currentTime < titleFadeDuration)
@@ -159,12 +185,53 @@ public class CardUI:MonoBehaviour
         yield break;
     }
 
+     public void prepateTitleFading(){
+        titleEra.alpha = 1.0f;
+        dateEra.alpha = 1.0f;
+        Invoke("goTitleFading", beforeTitleFade); 
+    }
+
+    public IEnumerator StartFadeBg()
+    {
+        float currentTime = 0;
+        while (currentTime < bgFadeDuration)
+        {
+            currentTime += Time.deltaTime;
+            Color32 color = Color32.Lerp(cleanColor, emptyColor , currentTime /  bgFadeDuration);
+            background.color = color;
+            yield return null;
+        }
+        titleEra.enabled = false;
+        dateEra.enabled = false;
+        yield break;
+    }
+
+    public IEnumerator EndFadeBg()
+    {
+        float currentTime = 0;
+        while (currentTime < bgFadeDuration)
+        {
+            currentTime += Time.deltaTime;
+            Color32 color = Color32.Lerp(emptyColor, cleanColor , currentTime /  bgFadeDuration);
+            background.color = color;
+            yield return null;
+        }
+        
+        deckBack.enabled = true;
+        titleEra.enabled = true;
+        dateEra.enabled = true;
+        resetPanels();
+        prepateTitleFading();
+        yield break;
+    }
+
     public void setBackground(Sprite newBackground) {
         background.sprite = newBackground;
     }
 
     public void setCardBackground(Sprite newCardBack) {
         cardBack.sprite = newCardBack;
+        
     }
     public void setDeckBackground(Sprite newDeckBack) {
         deckBack.sprite = newDeckBack;
@@ -174,12 +241,6 @@ public class CardUI:MonoBehaviour
         character.sprite = newCharacter;
     }
 
-    protected void StartSwipeLeft(){
-    }
-
-    protected void StartSwipeRight(){
-    }
-
     protected void StopSwipe(bool isMovingLeft, bool isSwiping){
         if(isSwiping){
             if(isMovingLeft) {
@@ -187,9 +248,10 @@ public class CardUI:MonoBehaviour
             } else {
                 leftPanel.enabled = false;
             }
+            
         }
     }
-
+    
     public void setHeightHenryLevel( float value) {
        float currentHeight = 5 + Mathf.Lerp(0, 160, value/maxValueHenry);
        henryLevel.rectTransform.sizeDelta = new Vector2(40, currentHeight);

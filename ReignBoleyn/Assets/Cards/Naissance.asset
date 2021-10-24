@@ -18,7 +18,8 @@ MonoBehaviour:
   characterImage: {fileID: 21300000, guid: 3426806cab605f34ba3f4697e7bcb993, type: 3}
   textChoiceLeft: "Vous dites au roi que la prochaine fois, ce sera un gar\xE7on"
   textChoiceRight: "Vous pleurez \xE0 chaudes larmes"
-  playWhenDiscovered: {fileID: 0}
+  playWhenDiscovered: {fileID: 8300000, guid: 102822851814b4a4a858608b62a8afb2, type: 3}
+  act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 11400000, guid: e2633cb86a86af745b8b948b041a42c7, type: 2}
   addLaterWhenSwipeLeft: {fileID: 0}
   addRandomWhenSwipeLeft: {fileID: 0}

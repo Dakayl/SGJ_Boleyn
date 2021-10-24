@@ -15,6 +15,13 @@ public class Era:ScriptableObject
    public Sprite deckBack;
    public List<ChoiceCard> newDeck;
    public bool shuffleDeck = true;
-   public bool isFinal = false;
+   public ChoiceCard endingHenriLovesYouAct2;
+   public ChoiceCard endingHenriDoesntLoveYouAct2;
+   public List<ChoiceCard> subDeckTourAct3;
+   public List<ChoiceCard> subDeckProcesAct3;
+   public List<ChoiceCard> subDeckVerdictAct3;
+   public List<ChoiceCard> subDeckExecutionAct3;
+   public List<ChoiceCard> subDeckFinalAct3;
+   public Color32 titleColor;
 
 }

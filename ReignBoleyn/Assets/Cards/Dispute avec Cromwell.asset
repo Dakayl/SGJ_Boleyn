@@ -16,23 +16,26 @@ MonoBehaviour:
   description: "Les biens du clerg\xE9 saisis rapportent une petite fortune. Vous
     voulez l'employer pour une bonne cause, mais Cromwell veut la garder pour le
     tr\xE9sor royal."
+  characterImage: {fileID: 0}
   textChoiceLeft: Vous le laissez-faire
   textChoiceRight: "Vous vous opposez violemment \xE0 lui"
-  changeEraWhenDiscovered: {fileID: 11400000, guid: 42bf6dde1f2dee4448a490d058d5a118, type: 2}
   playWhenDiscovered: {fileID: 0}
+  act2SpecialCard: 1
   addNextWhenSwipeLeft: {fileID: 0}
-  addLittleLatersWhenSwipeLeft: {fileID: 0}
+  addLaterWhenSwipeLeft: {fileID: 0}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}
+  changeEraWhenSwipeLeft: {fileID: 0}
   addToHenryWhenSwipeLeft: 1
   addToReligionWhenSwipeLeft: -2
   addToPeopleWhenSwipeLeft: -2
   addNextWhenSwipeRight: {fileID: 0}
-  addLittleLatersWhenSwipeRight: {fileID: 0}
+  addLaterWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}
+  changeEraWhenSwipeRight: {fileID: 0}
   addToHenryWhenSwipeRight: -1
   addToReligionWhenSwipeRight: 2
   addToPeopleWhenSwipeRight: 2

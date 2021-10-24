@@ -18,7 +18,8 @@ MonoBehaviour:
   characterImage: {fileID: 21300000, guid: 63a0c15f1caf255488c8bd1d69737e56, type: 3}
   textChoiceLeft: Vous le faites en secret
   textChoiceRight: "Vous demandez \xE0 Henri VIII"
-  playWhenDiscovered: {fileID: 0}
+  playWhenDiscovered: {fileID: 8300000, guid: 21fcac97515ac8e4d905512a7a52bc76, type: 3}
+  act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 11400000, guid: b61a4e422946a91429f9635be0d106c8, type: 2}
   addLaterWhenSwipeLeft: {fileID: 0}
   addRandomWhenSwipeLeft: {fileID: 0}

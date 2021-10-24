@@ -9,10 +9,13 @@ public class ChoicePanel : MonoBehaviour
 {
     [SerializeField] private Sprite normalBackImage;
     [SerializeField] private Sprite biggerBackImage;
-    public TextMeshProUGUI text;
-    public TextMeshProUGUI textHenry;
-    public TextMeshProUGUI textPeople;
-    public TextMeshProUGUI textReligion;
+    [SerializeField] private AudioClip parchemin;
+    [SerializeField] private Audio audioMgt;
+    private bool isBig = false;
+    private TextMeshProUGUI text;
+    private TextMeshProUGUI textHenry;
+    private TextMeshProUGUI textPeople;
+    private TextMeshProUGUI textReligion;
     private Image religion;
     private Image henry;
     private Image people;
@@ -32,6 +35,8 @@ public class ChoicePanel : MonoBehaviour
         textHenry = transform.Find("textHenry").GetComponent<TextMeshProUGUI>();
         textPeople = transform.Find("textPeople").GetComponent<TextMeshProUGUI>();
         textReligion = transform.Find("textReligion").GetComponent<TextMeshProUGUI>();
+        isBig = true;
+        forceSmaller();
     }
 
     // Update is called once per frame
@@ -45,6 +50,8 @@ public class ChoicePanel : MonoBehaviour
     }
 
     public void showBigger(){
+        if(isBig) return;
+        audioMgt.playAmbiant(parchemin);
         panel.sprite = biggerBackImage;
         if(henryLevel != 0) {
             henry.enabled = true;
@@ -58,10 +65,12 @@ public class ChoicePanel : MonoBehaviour
             religion.enabled = true;
             textReligion.enabled = true;
         }
+        isBig = true;
     }
 
-    public void showSmaller(){
-        panel.sprite = normalBackImage;
+    public void fullDisable() {
+        text.enabled = false;
+        panel.enabled = false;
         henry.enabled = false;
         people.enabled = false;
         religion.enabled = false;
@@ -69,6 +78,30 @@ public class ChoicePanel : MonoBehaviour
         textReligion.enabled = false;
         textPeople.enabled = false;
     }
+
+     public void renable() {
+        text.enabled = true;
+        panel.enabled = true;
+    }
+    
+    public void showSmaller(){
+        if(!isBig) return;
+        forceSmaller();
+    }
+
+    public void forceSmaller(){
+        panel.sprite = normalBackImage;
+        henry.enabled = false;
+        people.enabled = false;
+        religion.enabled = false;
+        textHenry.enabled = false;
+        textReligion.enabled = false;
+        textPeople.enabled = false;
+        isBig = false;
+    }
+
+    
+
     public void setHenry(int level){
         henryLevel = level;
         textHenry.SetText(level.ToString());

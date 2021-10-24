@@ -18,6 +18,7 @@ MonoBehaviour:
   textChoiceLeft: 
   textChoiceRight: 
   playWhenDiscovered: {fileID: 0}
+  act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 0}
   addLaterWhenSwipeLeft: {fileID: 0}
   addRandomWhenSwipeLeft: {fileID: 0}

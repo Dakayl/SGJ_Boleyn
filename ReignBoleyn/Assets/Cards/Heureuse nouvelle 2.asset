@@ -18,7 +18,8 @@ MonoBehaviour:
   characterImage: {fileID: 21300000, guid: 3426806cab605f34ba3f4697e7bcb993, type: 3}
   textChoiceLeft: Avec une procession religieuse
   textChoiceRight: Avec une grande distribution de pain
-  playWhenDiscovered: {fileID: 0}
+  playWhenDiscovered: {fileID: 8300000, guid: 102822851814b4a4a858608b62a8afb2, type: 3}
+  act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 11400000, guid: de7cb7167c81f9e4f96f0d1143c12b91, type: 2}
   addLaterWhenSwipeLeft: {fileID: 0}
   addRandomWhenSwipeLeft: {fileID: 0}

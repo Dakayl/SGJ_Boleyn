@@ -19,7 +19,8 @@ MonoBehaviour:
   textChoiceLeft: "Vous bl\xE2mez Henri pour sa trahison, qui est la cause de cet
     \xE9v\xE9nement"
   textChoiceRight: Pourquoi Dieu vous abandonne-t-il ?
-  playWhenDiscovered: {fileID: 0}
+  playWhenDiscovered: {fileID: 8300000, guid: d25c9b7b71eb2fa4ab8fe19e60bb19d3, type: 3}
+  act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 11400000, guid: 4b6ee48c84cdf9f4ab374587bfa37cbf, type: 2}
   addLaterWhenSwipeLeft: {fileID: 0}
   addRandomWhenSwipeLeft: {fileID: 0}

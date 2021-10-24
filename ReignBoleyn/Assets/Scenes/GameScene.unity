@@ -927,7 +927,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98a3a5ec74d335c4cbae42b9fa6cd8c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardFadeDuration: 2
+  cardFadeDuration: 1.8
   cardBack: {fileID: 461606235}
   character: {fileID: 335402911}
 --- !u!114 &451665166
@@ -1230,7 +1230,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1791,7 +1791,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -630, y: 0}
+  m_AnchoredPosition: {x: -630, y: -100}
   m_SizeDelta: {x: 536, y: 342}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &625667044
@@ -1846,10 +1846,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   normalBackImage: {fileID: 21300000, guid: 5b95d9f9e23d01c40bc023a49bfb2ef2, type: 3}
   biggerBackImage: {fileID: 21300000, guid: 9aef455ce3693e14d83cefac152b520d, type: 3}
-  text: {fileID: 0}
-  textHenry: {fileID: 0}
-  textPeople: {fileID: 0}
-  textReligion: {fileID: 0}
+  parchemin: {fileID: 8300000, guid: c82ddbe7d3b69ee4b9a243c1147262f3, type: 3}
+  audioMgt: {fileID: 448730181}
 --- !u!1 &694114677
 GameObject:
   m_ObjectHideFlags: 0
@@ -2101,7 +2099,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 630, y: 0}
+  m_AnchoredPosition: {x: 630, y: -100}
   m_SizeDelta: {x: 536, y: 342}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &754653341
@@ -2124,7 +2122,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5b95d9f9e23d01c40bc023a49bfb2ef2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9aef455ce3693e14d83cefac152b520d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2156,10 +2154,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   normalBackImage: {fileID: 21300000, guid: 5b95d9f9e23d01c40bc023a49bfb2ef2, type: 3}
   biggerBackImage: {fileID: 21300000, guid: 9aef455ce3693e14d83cefac152b520d, type: 3}
-  text: {fileID: 0}
-  textHenry: {fileID: 0}
-  textPeople: {fileID: 0}
-  textReligion: {fileID: 0}
+  parchemin: {fileID: 8300000, guid: c82ddbe7d3b69ee4b9a243c1147262f3, type: 3}
+  audioMgt: {fileID: 448730181}
 --- !u!1 &769850451
 GameObject:
   m_ObjectHideFlags: 0
@@ -2409,8 +2405,7 @@ MonoBehaviour:
   deckMgt: {fileID: 2020586173}
   cardInterfaceMgt: {fileID: 2082767523}
   audioMgt: {fileID: 448730181}
-  delayNewCard: 2.5
-  cardSound: {fileID: 8300000, guid: ec63579f5e2459d41b74c9bc03ed20a2, type: 3}
+  delayNewCard: 0.5
 --- !u!4 &1057533771
 Transform:
   m_ObjectHideFlags: 0
@@ -2494,7 +2489,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Description
+  m_text: "\"Je ne peux d\xE9cid\xE9ment vivre sans vous.\" Le roi vous envoie une
+    escorte pour vous ramener aupr\xE8s de lui, vous allez devenir sa reine."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3951,8 +3947,11 @@ MonoBehaviour:
   character: {fileID: 335402911}
   leftPanel: {fileID: 625667046}
   rightPanel: {fileID: 754653343}
-  beforeTitleFade: 2
+  beforeTitleFade: 1.5
   titleFadeDuration: 4
+  bgFadeDuration: 1.1
+  cardSound: {fileID: 8300000, guid: ec63579f5e2459d41b74c9bc03ed20a2, type: 3}
+  audioMgt: {fileID: 448730181}
 --- !u!4 &2082767524
 Transform:
   m_ObjectHideFlags: 0

@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class Game:MonoBehaviour
 {
@@ -15,9 +16,7 @@ public class Game:MonoBehaviour
     [SerializeField] private Deck deckMgt;
     [SerializeField] private CardUI cardInterfaceMgt;
     [SerializeField] private Audio audioMgt;
-    [SerializeField] private float delayNewCard = 2.0f;
-    [SerializeField] private AudioClip cardSound;
-
+    [SerializeField] private float delayNewCard = 1.5f;
     
     protected void Awake(){
         
@@ -28,12 +27,14 @@ public class Game:MonoBehaviour
         cardInterfaceMgt.setHeightHenryLevel(levelHenry);
         cardInterfaceMgt.setHeightPeopleLevel(levelPeople);
         cardInterfaceMgt.setHeightReligionLevel(levelReligion);
-        Invoke("getEra", 0.1f);
+        Invoke("beginGame", 0.1f);
     }
 
-    protected void getEra(){
+    protected void beginGame(){
         changeEra(currentEra);
+        cardInterfaceMgt.prepateTitleFading();
         newCard();
+        cardInterfaceMgt.ShowPanels();
     }
 
     protected void StopSwipe(bool isMovingLeft, bool isSwiping){
@@ -51,10 +52,12 @@ public class Game:MonoBehaviour
     }
 
     protected void changeEra(Era era){
+
         if(era == null) {
             return;
         }
-        currentEra = era;      
+        buildDeckAct3(era);    
+        currentEra = era;
         if(currentEra.newDeck != null
         && currentEra.newDeck.Count > 0) {            
             deckMgt.changeDeck(currentEra.newDeck, currentEra.shuffleDeck);
@@ -65,27 +68,94 @@ public class Game:MonoBehaviour
         cardInterfaceMgt.setEra(currentEra);
     }
 
+    protected void buildDeckAct3(Era era){
+        List<ChoiceCard> newDeck = new List<ChoiceCard>();
+        if(era.subDeckTourAct3 != null 
+        && era.subDeckTourAct3.Count > 0) {
+            List<ChoiceCard> tourAct3 = new List<ChoiceCard>(era.subDeckTourAct3);
+            newDeck.Add(
+                pickFrom(tourAct3)
+            );
+            newDeck.Add(
+                pickFrom(tourAct3)
+            );
+            newDeck.Add(
+                pickFrom(tourAct3)
+            );
+        }
+        if(era.subDeckProcesAct3 != null 
+        && era.subDeckProcesAct3.Count > 0) {
+            List<ChoiceCard> procesAct3 = new List<ChoiceCard>(era.subDeckProcesAct3);
+            newDeck.Add(
+                pickFrom(procesAct3)
+            );
+           newDeck.Add(
+                pickFrom(procesAct3)
+            );
+        }
+        if(era.subDeckVerdictAct3 != null 
+        && era.subDeckVerdictAct3.Count > 0) {
+            newDeck.Add(
+               era.subDeckVerdictAct3[0]
+            );
+        }
+        if(era.subDeckExecutionAct3 != null 
+        && era.subDeckExecutionAct3.Count > 0) {
+            List<ChoiceCard> executionAct3 = new List<ChoiceCard>(era.subDeckExecutionAct3);
+            newDeck.Add(
+                pickFrom(executionAct3)
+            );
+            newDeck.Add(
+                pickFrom(executionAct3)
+            );
+        }
+        if(era.subDeckFinalAct3 != null 
+        && era.subDeckExecutionAct3.Count > 0) {
+            newDeck.Add(
+               era.subDeckFinalAct3[0]
+            );
+        } 
+        if(newDeck.Count > 5){
+            era.newDeck = newDeck;
+        }       
+    }
+
+    protected ChoiceCard pickFrom(List<ChoiceCard> deck) {
+        int randomIndex = Random.Range(0, deck.Count);
+        ChoiceCard card = deck[randomIndex];
+        deck.Remove(card);
+        return card;
+    }
+
     protected void newCard() {
-        currentCard = deckMgt.getFirstCard();
+        if(currentCard != null
+        && currentCard.act2SpecialCard) {
+            if(levelHenry > 24) {
+                currentCard = currentEra.endingHenriLovesYouAct2;
+            } else {
+                currentCard = currentEra.endingHenriDoesntLoveYouAct2;
+            }
+        } else {
+            currentCard = deckMgt.getFirstCard();
+        }
+        
         if(currentCard == null) {
             return;
         } 
-        audioMgt.playEffect(cardSound);
-        Invoke("playDiscoverSound",1.0f); 
+        
+        
         cardInterfaceMgt.setCard(currentCard);
     }
 
-    protected void playDiscoverSound(){
-        if(currentCard.playWhenDiscovered != null) {
-            audioMgt.playEffect(currentCard.playWhenDiscovered);
-        }
-    }
 
     protected void playLeft() {     
         levelHenry += currentCard.addToHenryWhenSwipeLeft;
         levelPeople += currentCard.addToPeopleWhenSwipeLeft;
         levelReligion += currentCard.addToReligionWhenSwipeLeft;
-         if(currentCard.changeEraWhenSwipeLeft != null){
+        if(currentCard.playWhenSwipedLeft != null) {
+            audioMgt.playEffect(currentCard.playWhenSwipedLeft);
+        }
+        if(currentCard.changeEraWhenSwipeLeft != null){
           goNext(currentCard.changeEraWhenSwipeLeft);
           return;
         }
@@ -100,11 +170,7 @@ public class Game:MonoBehaviour
         }
         if(currentCard.addLastWhenSwipeLeft != null) {
             deckMgt.addCard(currentCard.addLastWhenSwipeLeft);
-        }
-        if(currentCard.playWhenSwipedLeft != null) {
-            audioMgt.playEffect(currentCard.playWhenSwipedLeft);
-        }
-       
+        }       
         Invoke("newCard", delayNewCard);
     }
 
@@ -125,7 +191,10 @@ public class Game:MonoBehaviour
         levelHenry += currentCard.addToHenryWhenSwipeRight;
         levelPeople += currentCard.addToPeopleWhenSwipeRight;
         levelReligion += currentCard.addToReligionWhenSwipeRight;
-         if(currentCard.changeEraWhenSwipeRight != null){
+        if(currentCard.playWhenSwipedRight != null) {
+            audioMgt.playEffect(currentCard.playWhenSwipedRight);
+        }
+        if(currentCard.changeEraWhenSwipeRight != null){
           goNext(currentCard.changeEraWhenSwipeRight);
           return;
         }
@@ -141,18 +210,22 @@ public class Game:MonoBehaviour
         if(currentCard.addLastWhenSwipeRight != null) {
             deckMgt.addCard(currentCard.addLastWhenSwipeRight);
         }
-        if(currentCard.playWhenSwipedRight != null) {
-            audioMgt.playEffect(currentCard.playWhenSwipedRight);
-        }
+       
         Invoke("newCard", delayNewCard);
     }
 
     protected void goNext(Era era){
         nextEra = era;
-        Invoke("passToNewEra", 2.0f);
+        Invoke("prepareNewEra", 1.0f);  
+    }
+
+    protected void prepareNewEra(){
+        cardInterfaceMgt.prepareEra();
+        Invoke("passToNewEra", 1.0f);
     }
 
     protected void passToNewEra(){
+        
         changeEra(nextEra);
         nextEra = null;
         Invoke("newCard", delayNewCard);
