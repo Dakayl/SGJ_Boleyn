@@ -318,7 +318,7 @@ GameObject:
   - component: {fileID: 480545047}
   - component: {fileID: 480545046}
   m_Layer: 0
-  m_Name: Conclusion
+  m_Name: Credits
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -333,11 +333,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 480545045}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf6804533d6688b458ff83e5ac643ba2, type: 3}
+  m_Script: {fileID: 11500000, guid: 66110f5c6cdf0cb4ebb532e048c4e79e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundToPlay: {fileID: 8300000, guid: e8831802ea49fa6449602f9ee2ce2e03, type: 3}
-  volume: 1
 --- !u!4 &480545047
 Transform:
   m_ObjectHideFlags: 0

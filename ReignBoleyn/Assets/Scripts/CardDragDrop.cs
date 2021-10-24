@@ -29,6 +29,7 @@ public class CardDragDrop:MonoBehaviour, IPointerUpHandler, IPointerDownHandler
     public delegate void ReadyToAct();
     public static event ReadyToAct OnReadyToAct;
     public void Start(){
+        
     }
 
     public void Awake(){

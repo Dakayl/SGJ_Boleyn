@@ -37,7 +37,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 6a6f0e267aaa07b4a96be2028417f334, type: 2}
   - {fileID: 11400000, guid: 3d55bf6f7806cb24eab6c69e5250c962, type: 2}
   shuffleDeck: 1
-  addCardAt23: {fileID: 11400000, guid: 4f363145251019542a3c67fad56ff829, type: 2}
+  addCardAt23: {fileID: 11400000, guid: af6472120f3336c4885fac8d74495176, type: 2}
   endingHenriLovesYouAct2: {fileID: 0}
   endingHenriDoesntLoveYouAct2: {fileID: 0}
   subDeckTourAct3: []
