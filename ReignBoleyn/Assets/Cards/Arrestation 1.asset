@@ -15,7 +15,7 @@ MonoBehaviour:
   title: Arrestation
   description: "C'est le drame ! Votre oncle, le duc de Norfolk, vient vous arr\xEAter
     dans vos appartements. Cromwell a convaincu le roi que vous l'avez trahi."
-  characterImage: {fileID: 21300000, guid: c7d966694c4e96649a10a6a62783df29, type: 3}
+  characterImage: {fileID: 21300000, guid: 7cd662c4a61d6904a8a6e4ceb54a1233, type: 3}
   textChoiceLeft: Vous le suivez sans discuter
   textChoiceRight: Vous protestez de votre innocence
   playWhenDiscovered: {fileID: 0}

@@ -25,8 +25,8 @@ MonoBehaviour:
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}
   changeEraWhenSwipeLeft: {fileID: 0}
-  addToHenryWhenSwipeLeft: -1
-  addToReligionWhenSwipeLeft: 0
+  addToHenryWhenSwipeLeft: 0
+  addToReligionWhenSwipeLeft: -1
   addToPeopleWhenSwipeLeft: 0
   addNextWhenSwipeRight: {fileID: 0}
   addLaterWhenSwipeRight: {fileID: 0}
