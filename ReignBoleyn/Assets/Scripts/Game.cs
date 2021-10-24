@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class Game:MonoBehaviour
 {
@@ -139,11 +140,12 @@ public class Game:MonoBehaviour
             currentCard = deckMgt.getFirstCard();
         }
         
+        if(currentCard == null && currentEra.isFinalEra) {
+            Invoke("ending",1.0f);
+        } 
         if(currentCard == null) {
             return;
-        } 
-        
-        
+        }
         cardInterfaceMgt.setCard(currentCard);
     }
 
@@ -229,5 +231,32 @@ public class Game:MonoBehaviour
         changeEra(nextEra);
         nextEra = null;
         Invoke("newCard", delayNewCard);
+    }
+
+    protected void ending() {
+        if(levelReligion > 24 && levelPeople > 24) {
+            SceneManager.LoadScene("Mere", LoadSceneMode.Single);
+            return;
+        }
+        if(levelReligion > 24) {
+            SceneManager.LoadScene("Sainte", LoadSceneMode.Single);
+            return;
+        }
+        if(levelHenry > 24) {
+            SceneManager.LoadScene("Victime", LoadSceneMode.Single);
+            return;
+        }
+        if(levelPeople > 24) {
+            SceneManager.LoadScene("Genereuse", LoadSceneMode.Single);
+            return;
+        }
+        if(levelPeople > 15 && levelReligion > 15 && levelHenry > 15 ) {
+            SceneManager.LoadScene("Lambda", LoadSceneMode.Single);
+            return;
+        }
+        SceneManager.LoadScene("Putain", LoadSceneMode.Single);
+        return;
+        
+        
     }
 }

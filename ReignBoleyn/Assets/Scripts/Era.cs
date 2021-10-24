@@ -23,5 +23,6 @@ public class Era:ScriptableObject
    public List<ChoiceCard> subDeckExecutionAct3;
    public List<ChoiceCard> subDeckFinalAct3;
    public Color32 titleColor;
+   public bool isFinalEra = false;
 
 }
