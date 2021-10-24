@@ -24,7 +24,7 @@ MonoBehaviour:
   addLaterWhenSwipeLeft: {fileID: 11400000, guid: de7cb7167c81f9e4f96f0d1143c12b91, type: 2}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
-  playWhenSwipedLeft: {fileID: 0}
+  playWhenSwipedLeft: {fileID: 8300000, guid: 21fcac97515ac8e4d905512a7a52bc76, type: 3}
   changeEraWhenSwipeLeft: {fileID: 0}
   addToHenryWhenSwipeLeft: 2
   addToReligionWhenSwipeLeft: 2

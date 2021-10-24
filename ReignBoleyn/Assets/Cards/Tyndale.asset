@@ -18,7 +18,7 @@ MonoBehaviour:
   characterImage: {fileID: 21300000, guid: 63a0c15f1caf255488c8bd1d69737e56, type: 3}
   textChoiceLeft: Vous le faites en secret
   textChoiceRight: "Vous demandez \xE0 Henri VIII"
-  playWhenDiscovered: {fileID: 8300000, guid: 21fcac97515ac8e4d905512a7a52bc76, type: 3}
+  playWhenDiscovered: {fileID: 0}
   act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 0}
   addLaterWhenSwipeLeft: {fileID: 11400000, guid: b61a4e422946a91429f9635be0d106c8, type: 2}
@@ -33,7 +33,7 @@ MonoBehaviour:
   addLaterWhenSwipeRight: {fileID: 11400000, guid: 6757030ae461f864fbf07299ea13babd, type: 2}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
-  playWhenSwipedRight: {fileID: 0}
+  playWhenSwipedRight: {fileID: 8300000, guid: 55e6898c6cbe78646abaf4da980ba2a0, type: 3}
   changeEraWhenSwipeRight: {fileID: 0}
   addToHenryWhenSwipeRight: -1
   addToReligionWhenSwipeRight: 2

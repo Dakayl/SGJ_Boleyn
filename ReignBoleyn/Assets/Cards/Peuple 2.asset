@@ -18,7 +18,8 @@ MonoBehaviour:
   characterImage: {fileID: 21300000, guid: c7d966694c4e96649a10a6a62783df29, type: 3}
   textChoiceLeft: "Vous faites jeter le pr\xEAtre en prison"
   textChoiceRight: Vous lui pardonnez, ce n'est qu'un vieillard
-  playWhenDiscovered: {fileID: 0}
+  playWhenDiscovered: {fileID: 8300000, guid: 21fcac97515ac8e4d905512a7a52bc76, type: 3}
+  act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 0}
   addLaterWhenSwipeLeft: {fileID: 0}
   addRandomWhenSwipeLeft: {fileID: 0}
