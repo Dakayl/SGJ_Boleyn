@@ -11,15 +11,15 @@ public class Audio:MonoBehaviour
     private AudioSource ambiantAudio;
     private AudioSource effectAudio;
     private AudioClip nextMusic;
-    private IEnumerator coroutineStop;
-    private IEnumerator coroutineStart;
 
     void Awake() {
+
         musicAudio = gameObject.AddComponent<AudioSource>();
         musicAudio.loop = true;
         musicAudio.volume = musicVolume;
         ambiantAudio = gameObject.AddComponent<AudioSource>();
         effectAudio = gameObject.AddComponent<AudioSource>();
+        DontDestroyOnLoad(this.gameObject);
     }   
     protected void Start(){
     }   
@@ -27,7 +27,7 @@ public class Audio:MonoBehaviour
     public IEnumerator StopFade()
     {
         float currentTime = 0;
-        float start = musicVolume;
+        float start = musicAudio.volume;
         if(musicAudio.isPlaying) {
             while (currentTime < fadeDuration)
             {
@@ -73,6 +73,10 @@ public class Audio:MonoBehaviour
             nextMusic = music;
             StartCoroutine(this.StopFade());
         }
+    }
+
+    public void stopMusic(){
+        musicAudio.Stop();
     }
 
 }

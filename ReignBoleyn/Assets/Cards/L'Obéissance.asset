@@ -20,8 +20,8 @@ MonoBehaviour:
   textChoiceRight: Sans le pape, les Anglais seront plus heureux
   playWhenDiscovered: {fileID: 8300000, guid: c7c33ad0034eb6846931cb5c4d3d9273, type: 3}
   act2SpecialCard: 0
-  addNextWhenSwipeLeft: {fileID: 11400000, guid: af68148fe78675e40b8b619239adf451, type: 2}
-  addLaterWhenSwipeLeft: {fileID: 0}
+  addNextWhenSwipeLeft: {fileID: 0}
+  addLaterWhenSwipeLeft: {fileID: 11400000, guid: af68148fe78675e40b8b619239adf451, type: 2}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}
@@ -29,8 +29,8 @@ MonoBehaviour:
   addToHenryWhenSwipeLeft: 1
   addToReligionWhenSwipeLeft: 1
   addToPeopleWhenSwipeLeft: -3
-  addNextWhenSwipeRight: {fileID: 11400000, guid: af68148fe78675e40b8b619239adf451, type: 2}
-  addLaterWhenSwipeRight: {fileID: 0}
+  addNextWhenSwipeRight: {fileID: 0}
+  addLaterWhenSwipeRight: {fileID: 11400000, guid: af68148fe78675e40b8b619239adf451, type: 2}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}

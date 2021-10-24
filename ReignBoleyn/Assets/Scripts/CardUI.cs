@@ -31,7 +31,7 @@ public class CardUI:MonoBehaviour
     [SerializeField] private float bgFadeDuration = 0.9f;
     private bool hasDisabledBg = false;
     [SerializeField] private AudioClip cardSound;
-    [SerializeField] private Audio audioMgt;
+    private Audio audioMgt;
 
 
     protected void Awake()
@@ -43,7 +43,11 @@ public class CardUI:MonoBehaviour
         cardCanvas = canvas.transform.Find("CardCanvas").GetComponent<Canvas>();
         description = cardCanvas.transform.Find("description").GetComponent<TextMeshProUGUI>();
         title = cardCanvas.transform.Find("title").GetComponent<TextMeshProUGUI>();
-       
+        audioMgt = GlobalParameters.getAudio();
+        if(audioMgt == null){
+            audioMgt = gameObject.AddComponent(typeof(Audio)) as Audio;
+            GlobalParameters.setAudio(audioMgt);
+        }
         StopSwipe(false, false);
     }
 

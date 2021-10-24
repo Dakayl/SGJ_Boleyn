@@ -16,14 +16,19 @@ public class Game:MonoBehaviour
     [SerializeField] private float maxValueReligion = 30;
     [SerializeField] private Deck deckMgt;
     [SerializeField] private CardUI cardInterfaceMgt;
-    [SerializeField] private Audio audioMgt;
+    private Audio audioMgt;
     [SerializeField] private float delayNewCard = 1.5f;
     
     protected void Awake(){
-        
+        audioMgt = GlobalParameters.getAudio();
+        if(audioMgt == null){
+            audioMgt = gameObject.AddComponent(typeof(Audio)) as Audio;
+            GlobalParameters.setAudio(audioMgt);
+        }
         CardDragDrop.OnDropCard += StopSwipe;
     }
     protected void Start(){
+        audioMgt.stopMusic();
         cardInterfaceMgt.setMaxValue(maxValueHenry, maxValuePeople, maxValueReligion);
         cardInterfaceMgt.setHeightHenryLevel(levelHenry);
         cardInterfaceMgt.setHeightPeopleLevel(levelPeople);

@@ -5,10 +5,25 @@ using UnityEngine.SceneManagement;
 
 public class StartScript : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private Audio audioMgt;
+    [SerializeField] private AudioClip relatedMusic;
+    [Range(0, 1.0f)] public float volume = 1.0f;
+
+    void Awake(){
+        audioMgt = GlobalParameters.getAudio();
+        if(audioMgt == null){
+            audioMgt = gameObject.AddComponent(typeof(Audio)) as Audio;
+            GlobalParameters.setAudio(audioMgt);
+        }
+    }
+
     void Start()
     {
         
+        if(relatedMusic != null) {
+           audioMgt.musicVolume = volume;
+           audioMgt.playMusic(relatedMusic);
+        }
     }
 
     // Update is called once per frame
