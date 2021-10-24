@@ -14,23 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: "M\xE9c\xE9nat"
   description: Un jeune musicien demande votre appui.
+  characterImage: {fileID: 21300000, guid: c941694df650cf645a5c6ca76490dc18, type: 3}
   textChoiceLeft: Vous l'engagez comme musicien personnel
   textChoiceRight: Vous l'envoyez promener
-  changeEraWhenDiscovered: {fileID: 0}
   playWhenDiscovered: {fileID: 0}
   addNextWhenSwipeLeft: {fileID: 0}
-  addLittleLatersWhenSwipeLeft: {fileID: 0}
+  addLaterWhenSwipeLeft: {fileID: 0}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}
+  changeEraWhenSwipeLeft: {fileID: 0}
   addToHenryWhenSwipeLeft: 1
   addToReligionWhenSwipeLeft: -1
   addToPeopleWhenSwipeLeft: 2
   addNextWhenSwipeRight: {fileID: 0}
-  addLittleLatersWhenSwipeRight: {fileID: 0}
+  addLaterWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}
+  changeEraWhenSwipeRight: {fileID: 0}
   addToHenryWhenSwipeRight: -1
   addToReligionWhenSwipeRight: 1
   addToPeopleWhenSwipeRight: -1

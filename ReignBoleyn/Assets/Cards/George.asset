@@ -15,6 +15,7 @@ MonoBehaviour:
   m_Name: George
   m_EditorClassIdentifier: 
   title: George
+<<<<<<< HEAD
 =======
 <<<<<<< Updated upstream:ReignBoleyn/Assets/Cards/Verdict.asset
   m_Name: Verdict
@@ -39,17 +40,25 @@ MonoBehaviour:
   textChoiceLeft: 
   textChoiceRight: 
   changeEraWhenDiscovered: {fileID: 0}
+=======
+  description: "Lors d'une apr\xE8s-midi, vous narrez \xE0 votre fr\xE8re vos rapprochements
+    avec le roi."
+  characterImage: {fileID: 21300000, guid: 96db8d6dbf2ef224bb55c4ed91d6cfa5, type: 3}
+  textChoiceLeft: "Vous vous montrez touch\xE9e de l'affection du roi"
+  textChoiceRight: "Vous \xE9num\xE9rez les avantages \xE0 en tirer"
+>>>>>>> ddb720024f9d71efb0d9bfee62ca372e120d4a62
   playWhenDiscovered: {fileID: 0}
   addNextWhenSwipeLeft: {fileID: 0}
-  addLittleLatersWhenSwipeLeft: {fileID: 0}
+  addLaterWhenSwipeLeft: {fileID: 0}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
   changeEraWhenSwipeLeft: {fileID: 0}
-  addToHenryWhenSwipeLeft: -1
+  addToHenryWhenSwipeLeft: 1
   addToReligionWhenSwipeLeft: 0
+<<<<<<< HEAD
   addToPeopleWhenSwipeLeft: -1
 =======
   addToHenryWhenSwipeLeft: 0
@@ -61,14 +70,18 @@ MonoBehaviour:
   addToReligionWhenSwipeLeft: 0
   addToPeopleWhenSwipeLeft: 0
 >>>>>>> Stashed changes
+=======
+  addToPeopleWhenSwipeLeft: 1
+>>>>>>> ddb720024f9d71efb0d9bfee62ca372e120d4a62
   addNextWhenSwipeRight: {fileID: 0}
-  addLittleLatersWhenSwipeRight: {fileID: 0}
+  addLaterWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
   changeEraWhenSwipeRight: {fileID: 0}
+<<<<<<< HEAD
   addToHenryWhenSwipeRight: 1
   addToReligionWhenSwipeRight: 0
   addToPeopleWhenSwipeRight: -2
@@ -82,3 +95,8 @@ MonoBehaviour:
   addToReligionWhenSwipeRight: 0
   addToPeopleWhenSwipeRight: 0
 >>>>>>> Stashed changes
+=======
+  addToHenryWhenSwipeRight: 0
+  addToReligionWhenSwipeRight: 2
+  addToPeopleWhenSwipeRight: -1
+>>>>>>> ddb720024f9d71efb0d9bfee62ca372e120d4a62

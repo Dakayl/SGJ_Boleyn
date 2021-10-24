@@ -12,12 +12,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3457edcf56f2bf34f8c864a2a363b638, type: 3}
   m_Name: 1533
   m_EditorClassIdentifier: 
-  relatedMusic: {fileID: 0}
+  relatedMusic: {fileID: 8300000, guid: 2724eec28c04db44cbd33934ce57e778, type: 3}
   date: 1533
   nameAct: Acte 2
-  background: {fileID: 0}
+  background: {fileID: 21300000, guid: 2958f964f777fd744988e3b05f7227a1, type: 3}
   cardBack: {fileID: 21300000, guid: fc3393c04e5450d449fc693ce63060c5, type: 3}
   deckBack: {fileID: 21300000, guid: 130a4fa64781e4f4992c8eb6f95d315b, type: 3}
-  newDeck: []
+  newDeck:
+  - {fileID: 11400000, guid: b9ce7dba3cc09d641879ce3d69be9ad1, type: 2}
+  - {fileID: 11400000, guid: 303bc913f08dc3b429a7111bd03c88e8, type: 2}
+  - {fileID: 11400000, guid: 210348361d5704547a06a8556e640dcd, type: 2}
+  - {fileID: 11400000, guid: 0b8c378ee6a50384db3d6eab2741c07e, type: 2}
+  - {fileID: 11400000, guid: f56b82a75132916408c6ee781e257303, type: 2}
+  - {fileID: 11400000, guid: c49fe4500133f7f4b856879ff8909439, type: 2}
+  - {fileID: 11400000, guid: cf088b7d242a08747bd670ee414b55ae, type: 2}
+  - {fileID: 11400000, guid: e8624fd516a32ce4b9c650241b14269b, type: 2}
+  - {fileID: 11400000, guid: b9f2024cffc891e4183eb9b313aaac6c, type: 2}
+  - {fileID: 11400000, guid: 3ae647b492bdaac49aff5422ef510906, type: 2}
+  - {fileID: 11400000, guid: e095612f01658524a9880a85dd233950, type: 2}
+  - {fileID: 11400000, guid: 4fc58594283ec5145baa4678d4749d57, type: 2}
+  - {fileID: 11400000, guid: 3da0a4663b62aad41a71133696096a44, type: 2}
+  - {fileID: 11400000, guid: d4004a24e21464e4c94c19cf3b11ffab, type: 2}
   shuffleDeck: 1
-  isFinal: 0
+  endingHenriLovesYouAct2: {fileID: 11400000, guid: 787a30f24ed43f84eb67a4db05b3f46e, type: 2}
+  endingHenriDoesntLoveYouAct2: {fileID: 11400000, guid: e90f354e85fc72345be3adcf7ef2662c, type: 2}
+  subDeckTourAct3: []
+  subDeckProcesAct3: []
+  subDeckVerdictAct3: []
+  subDeckExecutionAct3: []
+  subDeckFinalAct3: []
+  titleColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  isFinalEra: 0

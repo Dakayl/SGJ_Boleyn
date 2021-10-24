@@ -19,7 +19,6 @@ public class Deck:MonoBehaviour
             currentDeck[i] = currentDeck[randomIndex];
             currentDeck[randomIndex] = temp;
         }
-        Debug.Log("deck shuffled");
     }
 
     public void changeDeck(List<ChoiceCard> newDeck, bool doShuffle) {

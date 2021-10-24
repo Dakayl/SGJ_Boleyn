@@ -15,23 +15,25 @@ MonoBehaviour:
   title: Le bon peuple
   description: "L'archev\xEAque de Cantorb\xE9ry vient vous demander conseil sur
     la mani\xE8re de pousser les gens \xE0 accepter la supr\xE9matie royale."
+  characterImage: {fileID: 21300000, guid: c7d966694c4e96649a10a6a62783df29, type: 3}
   textChoiceLeft: Vous conseillez la force
   textChoiceRight: "Vous conseillez la patience et l'\xE9ducation"
-  changeEraWhenDiscovered: {fileID: 0}
   playWhenDiscovered: {fileID: 0}
   addNextWhenSwipeLeft: {fileID: 0}
-  addLittleLatersWhenSwipeLeft: {fileID: 0}
+  addLaterWhenSwipeLeft: {fileID: 0}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}
+  changeEraWhenSwipeLeft: {fileID: 0}
   addToHenryWhenSwipeLeft: 0
   addToReligionWhenSwipeLeft: 2
   addToPeopleWhenSwipeLeft: -2
   addNextWhenSwipeRight: {fileID: 0}
-  addLittleLatersWhenSwipeRight: {fileID: 0}
+  addLaterWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}
+  changeEraWhenSwipeRight: {fileID: 0}
   addToHenryWhenSwipeRight: 0
   addToReligionWhenSwipeRight: 1
   addToPeopleWhenSwipeRight: 2

@@ -13,24 +13,28 @@ MonoBehaviour:
   m_Name: Tour 4
   m_EditorClassIdentifier: 
   title: La tour de Londres
-  description: 
-  textChoiceLeft: 
-  textChoiceRight: 
-  changeEraWhenDiscovered: {fileID: 0}
-  playWhenDiscovered: {fileID: 0}
+  description: "L'isolement obscurcit vos pens\xE9es, la folie vous gagne. Vous ext\xE9riorisez
+    cette sensation..."
+  characterImage: {fileID: 21300000, guid: ec534184caee5fb4ba59c469cdb9fdcc, type: 3}
+  textChoiceLeft: "En criant jusqu'\xE0 vous \xE9poumoner"
+  textChoiceRight: "En tapant fr\xE9n\xE9tiquement contre les murs"
+  playWhenDiscovered: {fileID: 8300000, guid: f781be6b98782cd47bfd044184be06bd, type: 3}
+  act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 0}
-  addLittleLatersWhenSwipeLeft: {fileID: 0}
+  addLaterWhenSwipeLeft: {fileID: 0}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}
+  changeEraWhenSwipeLeft: {fileID: 0}
   addToHenryWhenSwipeLeft: 0
   addToReligionWhenSwipeLeft: 0
   addToPeopleWhenSwipeLeft: 0
   addNextWhenSwipeRight: {fileID: 0}
-  addLittleLatersWhenSwipeRight: {fileID: 0}
+  addLaterWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}
+  changeEraWhenSwipeRight: {fileID: 0}
   addToHenryWhenSwipeRight: 0
   addToReligionWhenSwipeRight: 0
   addToPeopleWhenSwipeRight: 0

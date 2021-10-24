@@ -11,6 +11,7 @@ public class ChoiceCard:ScriptableObject
     public string textChoiceLeft;
     public string textChoiceRight;
     public AudioClip playWhenDiscovered;
+    public bool act2SpecialCard = false;
 
     //Gestion des cartes - Gauche
     public ChoiceCard addNextWhenSwipeLeft;
@@ -21,9 +22,9 @@ public class ChoiceCard:ScriptableObject
     public Era changeEraWhenSwipeLeft;
 
     //Gestion des Jauges - Gauche
-    [Range(-100, 100)] public int addToHenryWhenSwipeLeft;
-    [Range(-100, 100)] public int addToReligionWhenSwipeLeft;
-    [Range(-100, 100)] public int addToPeopleWhenSwipeLeft;
+    [Range(-10, 10)] public int addToHenryWhenSwipeLeft;
+    [Range(-10, 10)] public int addToReligionWhenSwipeLeft;
+    [Range(-10, 10)] public int addToPeopleWhenSwipeLeft;
 
     //Gestion des cartes - Droite
     public ChoiceCard addNextWhenSwipeRight;
@@ -33,9 +34,11 @@ public class ChoiceCard:ScriptableObject
     public AudioClip playWhenSwipedRight;
     public Era changeEraWhenSwipeRight;
 
+    
+
 
     //Gestion des Jauges - Droite
-    [Range(-100, 100)] public int addToHenryWhenSwipeRight;
-    [Range(-100, 100)] public int addToReligionWhenSwipeRight;
-    [Range(-100, 100)] public int addToPeopleWhenSwipeRight;
+    [Range(-10, 10)] public int addToHenryWhenSwipeRight;
+    [Range(-10, 10)] public int addToReligionWhenSwipeRight;
+    [Range(-10, 10)] public int addToPeopleWhenSwipeRight;
 }

@@ -13,24 +13,28 @@ MonoBehaviour:
   m_Name: "Proc\xE8s 4"
   m_EditorClassIdentifier: 
   title: "Proc\xE8s"
-  description: 
-  textChoiceLeft: 
-  textChoiceRight: 
-  changeEraWhenDiscovered: {fileID: 0}
+  description: "Apr\xE8s un rapide coup d'\u0153il dans la salle du proc\xE8s, vous
+    constatez qu'il y a beaucoup trop de visages familiers parmi ceux qui vous jugent."
+  characterImage: {fileID: 21300000, guid: 257aacb1971be8f4b82815129228cf61, type: 3}
+  textChoiceLeft: Vous les implorez des yeux
+  textChoiceRight: "Vos yeux leur lancent des \xE9clairs"
   playWhenDiscovered: {fileID: 0}
+  act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 0}
-  addLittleLatersWhenSwipeLeft: {fileID: 0}
+  addLaterWhenSwipeLeft: {fileID: 0}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}
+  changeEraWhenSwipeLeft: {fileID: 0}
   addToHenryWhenSwipeLeft: 0
   addToReligionWhenSwipeLeft: 0
   addToPeopleWhenSwipeLeft: 0
   addNextWhenSwipeRight: {fileID: 0}
-  addLittleLatersWhenSwipeRight: {fileID: 0}
+  addLaterWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}
+  changeEraWhenSwipeRight: {fileID: 0}
   addToHenryWhenSwipeRight: 0
   addToReligionWhenSwipeRight: 0
   addToPeopleWhenSwipeRight: 0

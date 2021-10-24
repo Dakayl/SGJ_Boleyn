@@ -15,23 +15,26 @@ MonoBehaviour:
   title: Naissance
   description: "F\xE9licitations ! Vous avez accouch\xE9 d'un beau b\xE9b\xE9 en
     bonne sant\xE9 ! Mais c'est une fille..."
+  characterImage: {fileID: 21300000, guid: 3426806cab605f34ba3f4697e7bcb993, type: 3}
   textChoiceLeft: "Vous dites au roi que la prochaine fois, ce sera un gar\xE7on"
   textChoiceRight: "Vous pleurez \xE0 chaudes larmes"
-  changeEraWhenDiscovered: {fileID: 0}
-  playWhenDiscovered: {fileID: 0}
-  addNextWhenSwipeLeft: {fileID: 11400000, guid: e2633cb86a86af745b8b948b041a42c7, type: 2}
-  addLittleLatersWhenSwipeLeft: {fileID: 0}
-  addRandomWhenSwipeLeft: {fileID: 0}
+  playWhenDiscovered: {fileID: 8300000, guid: 102822851814b4a4a858608b62a8afb2, type: 3}
+  act2SpecialCard: 0
+  addNextWhenSwipeLeft: {fileID: 0}
+  addLaterWhenSwipeLeft: {fileID: 11400000, guid: e2633cb86a86af745b8b948b041a42c7, type: 2}
+  addRandomWhenSwipeLeft: {fileID: 11400000, guid: 5fb9bfc981010df429c2b31248599f84, type: 2}
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}
+  changeEraWhenSwipeLeft: {fileID: 0}
   addToHenryWhenSwipeLeft: 1
   addToReligionWhenSwipeLeft: 0
   addToPeopleWhenSwipeLeft: 0
-  addNextWhenSwipeRight: {fileID: 11400000, guid: e2633cb86a86af745b8b948b041a42c7, type: 2}
-  addLittleLatersWhenSwipeRight: {fileID: 0}
-  addRandomWhenSwipeRight: {fileID: 0}
+  addNextWhenSwipeRight: {fileID: 0}
+  addLaterWhenSwipeRight: {fileID: 11400000, guid: e2633cb86a86af745b8b948b041a42c7, type: 2}
+  addRandomWhenSwipeRight: {fileID: 11400000, guid: 5fb9bfc981010df429c2b31248599f84, type: 2}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}
+  changeEraWhenSwipeRight: {fileID: 0}
   addToHenryWhenSwipeRight: -1
   addToReligionWhenSwipeRight: 0
   addToPeopleWhenSwipeRight: 0

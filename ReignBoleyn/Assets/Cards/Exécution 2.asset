@@ -13,24 +13,28 @@ MonoBehaviour:
   m_Name: "Ex\xE9cution 2"
   m_EditorClassIdentifier: 
   title: "Ex\xE9cution"
-  description: 
-  textChoiceLeft: 
-  textChoiceRight: 
-  changeEraWhenDiscovered: {fileID: 0}
+  description: "Le bourreau a \xE9t\xE9 retard\xE9, votre ex\xE9cution est remise
+    au lendemain"
+  characterImage: {fileID: 21300000, guid: c9971dbd924334c47aa3a43d2ced8ed9, type: 3}
+  textChoiceLeft: "C'est dommage, vous esp\xE9riez bient\xF4t ne plus souffrir"
+  textChoiceRight: "Vous \xEAtes soulag\xE9e, un jour de plus sur terre"
   playWhenDiscovered: {fileID: 0}
+  act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 0}
-  addLittleLatersWhenSwipeLeft: {fileID: 0}
+  addLaterWhenSwipeLeft: {fileID: 0}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}
+  changeEraWhenSwipeLeft: {fileID: 0}
   addToHenryWhenSwipeLeft: 0
   addToReligionWhenSwipeLeft: 0
   addToPeopleWhenSwipeLeft: 0
   addNextWhenSwipeRight: {fileID: 0}
-  addLittleLatersWhenSwipeRight: {fileID: 0}
+  addLaterWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}
+  changeEraWhenSwipeRight: {fileID: 0}
   addToHenryWhenSwipeRight: 0
   addToReligionWhenSwipeRight: 0
   addToPeopleWhenSwipeRight: 0

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: Lettre du Roi Henri VIII
   description: "Mon ange, j'ai chass\xE9 ce sanglier, je vous l'envoie."
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 21300000, guid: 36edc578f2a9b9c49a7ea686f32a3e2c, type: 3}
   textChoiceLeft: "Vous lui faites comprendre que vous n'en avez pas l'utilit\xE9"
   textChoiceRight: Vous le remerciez
   playWhenDiscovered: {fileID: 0}

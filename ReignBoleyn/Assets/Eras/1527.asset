@@ -26,14 +26,24 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d890c3cdefd550048905fdab2f6294a4, type: 2}
   - {fileID: 11400000, guid: a616081003c78d94b8c6b53fb36984c9, type: 2}
   - {fileID: 11400000, guid: e4a575dbbe6cf904f8670eebc8c5c903, type: 2}
-  - {fileID: 11400000, guid: 9fe9935820dc7b249baaafe7507a025b, type: 2}
   - {fileID: 11400000, guid: 2ec68272c0756f64ea943473edbe8593, type: 2}
-  - {fileID: 11400000, guid: 63239d121c9845646bb4896de8af2e76, type: 2}
-  - {fileID: 11400000, guid: 1817ca57d5f5b6143b77928c7059b52e, type: 2}
-  - {fileID: 11400000, guid: ef71518651c0ae646ac134ea6c917d53, type: 2}
-  - {fileID: 11400000, guid: fe9b8e686c487a5479c276afb7b519bb, type: 2}
-  - {fileID: 11400000, guid: af68148fe78675e40b8b619239adf451, type: 2}
+  - {fileID: 11400000, guid: 9fe9935820dc7b249baaafe7507a025b, type: 2}
   - {fileID: 11400000, guid: 2735a98c824bf9349a952736042a6c4c, type: 2}
   - {fileID: 11400000, guid: bf224277131142e47983086e263514ee, type: 2}
+  - {fileID: 11400000, guid: fe9b8e686c487a5479c276afb7b519bb, type: 2}
+  - {fileID: 11400000, guid: ef71518651c0ae646ac134ea6c917d53, type: 2}
+  - {fileID: 11400000, guid: 1817ca57d5f5b6143b77928c7059b52e, type: 2}
+  - {fileID: 11400000, guid: 63239d121c9845646bb4896de8af2e76, type: 2}
+  - {fileID: 11400000, guid: 6a6f0e267aaa07b4a96be2028417f334, type: 2}
+  - {fileID: 11400000, guid: 3d55bf6f7806cb24eab6c69e5250c962, type: 2}
   shuffleDeck: 1
-  isFinal: 0
+  endingHenriLovesYouAct2: {fileID: 0}
+  endingHenriDoesntLoveYouAct2: {fileID: 0}
+  subDeckTourAct3: []
+  subDeckProcesAct3: []
+  subDeckVerdictAct3: []
+  subDeckExecutionAct3: []
+  subDeckFinalAct3: []
+  titleColor:
+    serializedVersion: 2
+    rgba: 4278190080

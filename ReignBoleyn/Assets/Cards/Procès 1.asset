@@ -15,6 +15,7 @@ MonoBehaviour:
   m_Name: "Proc\xE8s 1"
   m_EditorClassIdentifier: 
   title: "Proc\xE8s"
+<<<<<<< HEAD
 =======
   m_Name: George
   m_EditorClassIdentifier: 
@@ -29,20 +30,29 @@ MonoBehaviour:
   textChoiceLeft: 
   textChoiceRight: 
   changeEraWhenDiscovered: {fileID: 0}
+=======
+  description: "Votre oncle Norfolk pr\xE9side votre propre proc\xE8s !"
+  characterImage: {fileID: 21300000, guid: 257aacb1971be8f4b82815129228cf61, type: 3}
+  textChoiceLeft: Vous fondez en lui tous vos espoirs
+  textChoiceRight: C'est peine perdue, vous savez ce qu'il pense de vous
+>>>>>>> ddb720024f9d71efb0d9bfee62ca372e120d4a62
   playWhenDiscovered: {fileID: 0}
+  act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 0}
-  addLittleLatersWhenSwipeLeft: {fileID: 0}
+  addLaterWhenSwipeLeft: {fileID: 0}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}
+  changeEraWhenSwipeLeft: {fileID: 0}
   addToHenryWhenSwipeLeft: 0
   addToReligionWhenSwipeLeft: 0
   addToPeopleWhenSwipeLeft: 0
   addNextWhenSwipeRight: {fileID: 0}
-  addLittleLatersWhenSwipeRight: {fileID: 0}
+  addLaterWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}
+  changeEraWhenSwipeRight: {fileID: 0}
   addToHenryWhenSwipeRight: 0
   addToReligionWhenSwipeRight: 0
   addToPeopleWhenSwipeRight: 0

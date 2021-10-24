@@ -14,23 +14,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: "Offrande d\xE9tourn\xE9e"
   description: "Le clerg\xE9 s'enrichit sur le dos des fid\xE8les !"
+  characterImage: {fileID: 21300000, guid: 83c40cbf735018345915bec69a0bc6c4, type: 3}
   textChoiceLeft: "Vous d\xE9noncez ces abus \xE0 Henri"
   textChoiceRight: Vous ne dites rien
-  changeEraWhenDiscovered: {fileID: 0}
   playWhenDiscovered: {fileID: 0}
+  act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 0}
-  addLittleLatersWhenSwipeLeft: {fileID: 0}
+  addLaterWhenSwipeLeft: {fileID: 11400000, guid: af68148fe78675e40b8b619239adf451, type: 2}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}
+  changeEraWhenSwipeLeft: {fileID: 0}
   addToHenryWhenSwipeLeft: 1
   addToReligionWhenSwipeLeft: 2
   addToPeopleWhenSwipeLeft: 1
   addNextWhenSwipeRight: {fileID: 0}
-  addLittleLatersWhenSwipeRight: {fileID: 0}
+  addLaterWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}
+  changeEraWhenSwipeRight: {fileID: 0}
   addToHenryWhenSwipeRight: 2
   addToReligionWhenSwipeRight: -1
   addToPeopleWhenSwipeRight: 0

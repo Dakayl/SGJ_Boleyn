@@ -15,23 +15,26 @@ MonoBehaviour:
   title: Tyndale
   description: Tyndale demande une audience pour savoir si vous pouvez le soutenir
     dans la diffusion de la bible traduite.
+  characterImage: {fileID: 21300000, guid: 63a0c15f1caf255488c8bd1d69737e56, type: 3}
   textChoiceLeft: Vous le faites en secret
   textChoiceRight: "Vous demandez \xE0 Henri VIII"
-  changeEraWhenDiscovered: {fileID: 0}
-  playWhenDiscovered: {fileID: 0}
-  addNextWhenSwipeLeft: {fileID: 11400000, guid: b61a4e422946a91429f9635be0d106c8, type: 2}
-  addLittleLatersWhenSwipeLeft: {fileID: 0}
+  playWhenDiscovered: {fileID: 8300000, guid: 21fcac97515ac8e4d905512a7a52bc76, type: 3}
+  act2SpecialCard: 0
+  addNextWhenSwipeLeft: {fileID: 0}
+  addLaterWhenSwipeLeft: {fileID: 11400000, guid: b61a4e422946a91429f9635be0d106c8, type: 2}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}
+  changeEraWhenSwipeLeft: {fileID: 0}
   addToHenryWhenSwipeLeft: 0
   addToReligionWhenSwipeLeft: 1
   addToPeopleWhenSwipeLeft: 0
-  addNextWhenSwipeRight: {fileID: 11400000, guid: 6757030ae461f864fbf07299ea13babd, type: 2}
-  addLittleLatersWhenSwipeRight: {fileID: 0}
+  addNextWhenSwipeRight: {fileID: 0}
+  addLaterWhenSwipeRight: {fileID: 11400000, guid: 6757030ae461f864fbf07299ea13babd, type: 2}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}
+  changeEraWhenSwipeRight: {fileID: 0}
   addToHenryWhenSwipeRight: -1
   addToReligionWhenSwipeRight: 2
   addToPeopleWhenSwipeRight: 0

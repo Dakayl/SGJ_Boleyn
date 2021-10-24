@@ -16,6 +16,7 @@ MonoBehaviour:
   m_Name: Verdict
   m_EditorClassIdentifier: 
   title: Verdict
+<<<<<<< HEAD
 =======
   m_Name: George
   m_EditorClassIdentifier: 
@@ -35,20 +36,29 @@ MonoBehaviour:
   textChoiceLeft: 
   textChoiceRight: 
   changeEraWhenDiscovered: {fileID: 0}
+=======
+  description: "Vous \xEAtes reconnue coupable, et serez mise \xE0 mort."
+  characterImage: {fileID: 21300000, guid: f9f94f449b142974984f55efe2a47e6c, type: 3}
+  textChoiceLeft: "Vous protestez une \xE9ni\xE8me fois"
+  textChoiceRight: "Vous \xEAtes r\xE9sign\xE9e"
+>>>>>>> ddb720024f9d71efb0d9bfee62ca372e120d4a62
   playWhenDiscovered: {fileID: 0}
+  act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 0}
-  addLittleLatersWhenSwipeLeft: {fileID: 0}
+  addLaterWhenSwipeLeft: {fileID: 0}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}
+  changeEraWhenSwipeLeft: {fileID: 0}
   addToHenryWhenSwipeLeft: 0
   addToReligionWhenSwipeLeft: 0
-  addToPeopleWhenSwipeLeft: 0
+  addToPeopleWhenSwipeLeft: 1
   addNextWhenSwipeRight: {fileID: 0}
-  addLittleLatersWhenSwipeRight: {fileID: 0}
+  addLaterWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}
+  changeEraWhenSwipeRight: {fileID: 0}
   addToHenryWhenSwipeRight: 0
-  addToReligionWhenSwipeRight: 0
+  addToReligionWhenSwipeRight: 1
   addToPeopleWhenSwipeRight: 0
