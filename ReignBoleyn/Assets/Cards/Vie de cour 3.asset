@@ -17,7 +17,7 @@ MonoBehaviour:
   characterImage: {fileID: 21300000, guid: c941694df650cf645a5c6ca76490dc18, type: 3}
   textChoiceLeft: "Parfaite pour rendre visite \xE0 votre fille"
   textChoiceRight: Parfaite pour une promenade avec Henri
-  playWhenDiscovered: {fileID: 0}
+  playWhenDiscovered: {fileID: 8300000, guid: 60a4fe15797a8b64e863abbf79e77c5e, type: 3}
   act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 0}
   addLaterWhenSwipeLeft: {fileID: 0}

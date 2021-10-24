@@ -24,7 +24,7 @@ MonoBehaviour:
   addLaterWhenSwipeLeft: {fileID: 0}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
-  playWhenSwipedLeft: {fileID: 0}
+  playWhenSwipedLeft: {fileID: 8300000, guid: 764070e5c45000b4e84fc48496692c2a, type: 3}
   changeEraWhenSwipeLeft: {fileID: 11400000, guid: 42bf6dde1f2dee4448a490d058d5a118, type: 2}
   addToHenryWhenSwipeLeft: 0
   addToReligionWhenSwipeLeft: 0
@@ -33,7 +33,7 @@ MonoBehaviour:
   addLaterWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
-  playWhenSwipedRight: {fileID: 0}
+  playWhenSwipedRight: {fileID: 8300000, guid: 764070e5c45000b4e84fc48496692c2a, type: 3}
   changeEraWhenSwipeRight: {fileID: 11400000, guid: 42bf6dde1f2dee4448a490d058d5a118, type: 2}
   addToHenryWhenSwipeRight: 0
   addToReligionWhenSwipeRight: 1

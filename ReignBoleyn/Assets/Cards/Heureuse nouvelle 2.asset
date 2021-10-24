@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: Heureuse nouvelle 2
   m_EditorClassIdentifier: 
   title: Heureuse nouvelle
-  description: "F\xE9licitations, vous \xEAtes enceinte ! Comment souhaitez-vous
-    le f\xEAter ?"
+  description: "F\xE9licitations, vous \xEAtes enceinte ! &"
   characterImage: {fileID: 21300000, guid: 3426806cab605f34ba3f4697e7bcb993, type: 3}
   textChoiceLeft: Avec une procession religieuse
   textChoiceRight: Avec une grande distribution de pain
