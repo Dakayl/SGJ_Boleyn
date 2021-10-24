@@ -49,7 +49,7 @@ public class EndScript : MonoBehaviour
             case "putain":
                 titre.SetText("La Putain");
                 break;
-         
+        }
     }
 
     // Update is called once per frame
