@@ -17,7 +17,7 @@ MonoBehaviour:
     mots.
   characterImage: {fileID: 21300000, guid: c9971dbd924334c47aa3a43d2ced8ed9, type: 3}
   textChoiceLeft: Vous le faites volontiers
-  textChoiceRight: "Plut\xF4t crever, c'est de toute fa\xE7on ce qui vous attend/"
+  textChoiceRight: "Plut\xF4t crever, c'est de toute fa\xE7on ce qui vous attend"
   playWhenDiscovered: {fileID: 0}
   act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 0}
