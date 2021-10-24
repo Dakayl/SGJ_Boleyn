@@ -10,9 +10,27 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: af61e01d538be0446885315c0df3407a, type: 3}
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream:ReignBoleyn/Assets/Cards/Verdict.asset
   m_Name: Verdict
   m_EditorClassIdentifier: 
   title: Verdict
+=======
+  m_Name: George
+  m_EditorClassIdentifier: 
+  title: George
+>>>>>>> Stashed changes:ReignBoleyn/Assets/Cards/George.asset
+=======
+  m_Name: Verdict
+  m_EditorClassIdentifier: 
+  title: Verdict
+>>>>>>> Stashed changes
+=======
+  m_Name: Verdict
+  m_EditorClassIdentifier: 
+  title: Verdict
+>>>>>>> Stashed changes
   description: 
   textChoiceLeft: 
   textChoiceRight: 

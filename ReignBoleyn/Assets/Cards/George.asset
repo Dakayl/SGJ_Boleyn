@@ -10,9 +10,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: af61e01d538be0446885315c0df3407a, type: 3}
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_Name: George
   m_EditorClassIdentifier: 
   title: George
+=======
+<<<<<<< Updated upstream:ReignBoleyn/Assets/Cards/Verdict.asset
+  m_Name: Verdict
+  m_EditorClassIdentifier: 
+  title: Verdict
+=======
+<<<<<<< Updated upstream:ReignBoleyn/Assets/Cards/Procès 1.asset
+  m_Name: "Proc\xE8s 1"
+  m_EditorClassIdentifier: 
+  title: "Proc\xE8s"
+>>>>>>> Stashed changes
+=======
+  m_Name: George
+  m_EditorClassIdentifier: 
+  title: George
+>>>>>>> Stashed changes:ReignBoleyn/Assets/Cards/George.asset
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
   description: 
   textChoiceLeft: 
   textChoiceRight: 
@@ -23,16 +45,40 @@ MonoBehaviour:
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
   changeEraWhenSwipeLeft: {fileID: 0}
   addToHenryWhenSwipeLeft: -1
   addToReligionWhenSwipeLeft: 0
   addToPeopleWhenSwipeLeft: -1
+=======
+  addToHenryWhenSwipeLeft: 0
+  addToReligionWhenSwipeLeft: 0
+  addToPeopleWhenSwipeLeft: 0
+>>>>>>> Stashed changes
+=======
+  addToHenryWhenSwipeLeft: 0
+  addToReligionWhenSwipeLeft: 0
+  addToPeopleWhenSwipeLeft: 0
+>>>>>>> Stashed changes
   addNextWhenSwipeRight: {fileID: 0}
   addLittleLatersWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
   changeEraWhenSwipeRight: {fileID: 0}
   addToHenryWhenSwipeRight: 1
   addToReligionWhenSwipeRight: 0
   addToPeopleWhenSwipeRight: -2
+=======
+  addToHenryWhenSwipeRight: 0
+  addToReligionWhenSwipeRight: 0
+  addToPeopleWhenSwipeRight: 0
+>>>>>>> Stashed changes
+=======
+  addToHenryWhenSwipeRight: 0
+  addToReligionWhenSwipeRight: 0
+  addToPeopleWhenSwipeRight: 0
+>>>>>>> Stashed changes

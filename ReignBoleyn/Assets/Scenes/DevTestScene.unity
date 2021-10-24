@@ -2190,10 +2190,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &1675111743
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
   currentEra: {fileID: 0}
   deckMgt: {fileID: 2020586173}
   cardMgt: {fileID: 2082767523}
@@ -2601,6 +2607,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfe6ae014051714469e25be269d152e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
+=======
+  currentDeck:
+  - {fileID: 11400000, guid: c2f571cc80ca93349b7a7fda5b63fc9f, type: 2}
+  - {fileID: 11400000, guid: dddc61b2b0f45774d90d637d65e4c204, type: 2}
+  shuffleDeckAtStart: 1
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 --- !u!4 &2020586174
 Transform:
   m_ObjectHideFlags: 0
