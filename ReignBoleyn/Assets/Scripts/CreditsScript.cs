@@ -15,7 +15,7 @@ public class CreditsScript : MonoBehaviour
     void Update()
     {
         if (Input.GetMouseButtonDown(0)) {
-            SceneManager.LoadScene("StartScript", LoadSceneMode.Single);
+            SceneManager.LoadScene("StartScene", LoadSceneMode.Single);
         }
     }
 }
