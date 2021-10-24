@@ -31,6 +31,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3ae647b492bdaac49aff5422ef510906, type: 2}
   - {fileID: 11400000, guid: e095612f01658524a9880a85dd233950, type: 2}
   - {fileID: 11400000, guid: 4fc58594283ec5145baa4678d4749d57, type: 2}
+  - {fileID: 11400000, guid: 3da0a4663b62aad41a71133696096a44, type: 2}
+  - {fileID: 11400000, guid: d4004a24e21464e4c94c19cf3b11ffab, type: 2}
   shuffleDeck: 1
   endingHenriLovesYouAct2: {fileID: 11400000, guid: 787a30f24ed43f84eb67a4db05b3f46e, type: 2}
   endingHenriDoesntLoveYouAct2: {fileID: 11400000, guid: e90f354e85fc72345be3adcf7ef2662c, type: 2}
@@ -42,3 +44,4 @@ MonoBehaviour:
   titleColor:
     serializedVersion: 2
     rgba: 4294967295
+  isFinalEra: 0

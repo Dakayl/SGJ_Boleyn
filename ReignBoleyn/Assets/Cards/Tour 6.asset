@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af61e01d538be0446885315c0df3407a, type: 3}
   m_Name: Tour 6
   m_EditorClassIdentifier: 
-  title: La tour de Londres 6
-  description: 
+  title: La tour de Londres
+  description: "Suite \xE0 des bruits de couloir, vous apprenez que votre fr\xE8re
+    est \xE9galement enferm\xE9 dans la tour."
   characterImage: {fileID: 21300000, guid: ec534184caee5fb4ba59c469cdb9fdcc, type: 3}
-  textChoiceLeft: 
-  textChoiceRight: 
+  textChoiceLeft: Vous tentez d'entrer en contact avec lui
+  textChoiceRight: Vous priez pour lui
   playWhenDiscovered: {fileID: 0}
   act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 0}

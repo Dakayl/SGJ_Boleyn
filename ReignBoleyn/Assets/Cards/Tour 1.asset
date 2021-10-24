@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af61e01d538be0446885315c0df3407a, type: 3}
   m_Name: Tour 1
   m_EditorClassIdentifier: 
-  title: La tour de Londres 1
-  description: 
+  title: La tour de Londres
+  description: "Des pas r\xE9sonnent dans le couloir, c'est votre ge\xF4lier. Lorsqu'il
+    passe devant votre porte ..."
   characterImage: {fileID: 21300000, guid: ec534184caee5fb4ba59c469cdb9fdcc, type: 3}
-  textChoiceLeft: 
-  textChoiceRight: 
+  textChoiceLeft: Vous le saluez froidement
+  textChoiceRight: Vous clamez votre innocence
   playWhenDiscovered: {fileID: 0}
   act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 0}
@@ -27,7 +28,7 @@ MonoBehaviour:
   changeEraWhenSwipeLeft: {fileID: 0}
   addToHenryWhenSwipeLeft: 0
   addToReligionWhenSwipeLeft: 0
-  addToPeopleWhenSwipeLeft: 0
+  addToPeopleWhenSwipeLeft: -1
   addNextWhenSwipeRight: {fileID: 0}
   addLaterWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}

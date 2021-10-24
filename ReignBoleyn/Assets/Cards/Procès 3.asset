@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af61e01d538be0446885315c0df3407a, type: 3}
   m_Name: "Proc\xE8s 3"
   m_EditorClassIdentifier: 
-  title: "Proc\xE8s 3"
-  description: 
+  title: "Proc\xE8s"
+  description: "On vous accuse d'avoir couch\xE9 avec votre propre fr\xE8re !"
   characterImage: {fileID: 21300000, guid: 257aacb1971be8f4b82815129228cf61, type: 3}
-  textChoiceLeft: 
-  textChoiceRight: 
+  textChoiceLeft: "Vous en riez. Et pourquoi pas avec votre p\xE8re ?"
+  textChoiceRight: "Vous protestez de l'horreur de ce qu'on sugg\xE8re"
   playWhenDiscovered: {fileID: 0}
   act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 0}
@@ -27,7 +27,7 @@ MonoBehaviour:
   changeEraWhenSwipeLeft: {fileID: 0}
   addToHenryWhenSwipeLeft: 0
   addToReligionWhenSwipeLeft: 0
-  addToPeopleWhenSwipeLeft: 0
+  addToPeopleWhenSwipeLeft: 1
   addNextWhenSwipeRight: {fileID: 0}
   addLaterWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}
@@ -35,5 +35,5 @@ MonoBehaviour:
   playWhenSwipedRight: {fileID: 0}
   changeEraWhenSwipeRight: {fileID: 0}
   addToHenryWhenSwipeRight: 0
-  addToReligionWhenSwipeRight: 0
+  addToReligionWhenSwipeRight: 1
   addToPeopleWhenSwipeRight: 0

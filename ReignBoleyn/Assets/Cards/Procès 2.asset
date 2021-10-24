@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af61e01d538be0446885315c0df3407a, type: 3}
   m_Name: "Proc\xE8s 2"
   m_EditorClassIdentifier: 
-  title: "Proc\xE8s 2"
-  description: 
+  title: "Proc\xE8s"
+  description: "La cour vous accuse de n'avoir jamais aim\xE9 le roi."
   characterImage: {fileID: 21300000, guid: 257aacb1971be8f4b82815129228cf61, type: 3}
-  textChoiceLeft: 
-  textChoiceRight: 
+  textChoiceLeft: "Vous \xEAtes outr\xE9e, vous n'auriez jamais viol\xE9 le sacrement
+    du mariage"
+  textChoiceRight: "Perdue pour perdue, vous r\xE9pondez avec ironie"
   playWhenDiscovered: {fileID: 0}
   act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 0}
@@ -26,8 +27,8 @@ MonoBehaviour:
   playWhenSwipedLeft: {fileID: 0}
   changeEraWhenSwipeLeft: {fileID: 0}
   addToHenryWhenSwipeLeft: 0
-  addToReligionWhenSwipeLeft: 0
-  addToPeopleWhenSwipeLeft: 0
+  addToReligionWhenSwipeLeft: 3
+  addToPeopleWhenSwipeLeft: 2
   addNextWhenSwipeRight: {fileID: 0}
   addLaterWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}
@@ -35,5 +36,5 @@ MonoBehaviour:
   playWhenSwipedRight: {fileID: 0}
   changeEraWhenSwipeRight: {fileID: 0}
   addToHenryWhenSwipeRight: 0
-  addToReligionWhenSwipeRight: 0
-  addToPeopleWhenSwipeRight: 0
+  addToReligionWhenSwipeRight: 1
+  addToPeopleWhenSwipeRight: 4

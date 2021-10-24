@@ -19,8 +19,9 @@ MonoBehaviour:
   textChoiceLeft: Vous refermez la porte et partez sans rien dire
   textChoiceRight: "Vous lui faites une sc\xE8ne"
   playWhenDiscovered: {fileID: 0}
-  addNextWhenSwipeLeft: {fileID: 11400000, guid: 0d8519b484c628544b6e3381e7872b93, type: 2}
-  addLaterWhenSwipeLeft: {fileID: 0}
+  act2SpecialCard: 0
+  addNextWhenSwipeLeft: {fileID: 0}
+  addLaterWhenSwipeLeft: {fileID: 11400000, guid: 0d8519b484c628544b6e3381e7872b93, type: 2}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}
@@ -28,8 +29,8 @@ MonoBehaviour:
   addToHenryWhenSwipeLeft: 1
   addToReligionWhenSwipeLeft: 0
   addToPeopleWhenSwipeLeft: 0
-  addNextWhenSwipeRight: {fileID: 11400000, guid: 0d8519b484c628544b6e3381e7872b93, type: 2}
-  addLaterWhenSwipeRight: {fileID: 0}
+  addNextWhenSwipeRight: {fileID: 0}
+  addLaterWhenSwipeRight: {fileID: 11400000, guid: 0d8519b484c628544b6e3381e7872b93, type: 2}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}

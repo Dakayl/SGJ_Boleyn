@@ -18,9 +18,10 @@ MonoBehaviour:
   textChoiceLeft: "Parfaite pour rendre visite \xE0 votre fille"
   textChoiceRight: Parfaite pour une promenade avec Henri
   playWhenDiscovered: {fileID: 0}
+  act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 0}
   addLaterWhenSwipeLeft: {fileID: 0}
-  addRandomWhenSwipeLeft: {fileID: 0}
+  addRandomWhenSwipeLeft: {fileID: 11400000}
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}
   changeEraWhenSwipeLeft: {fileID: 0}
@@ -29,7 +30,7 @@ MonoBehaviour:
   addToPeopleWhenSwipeLeft: 1
   addNextWhenSwipeRight: {fileID: 0}
   addLaterWhenSwipeRight: {fileID: 0}
-  addRandomWhenSwipeRight: {fileID: 0}
+  addRandomWhenSwipeRight: {fileID: 11400000}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}
   changeEraWhenSwipeRight: {fileID: 0}

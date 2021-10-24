@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af61e01d538be0446885315c0df3407a, type: 3}
   m_Name: Tour 2
   m_EditorClassIdentifier: 
-  title: La tour de Londres 2
-  description: 
+  title: La tour de Londres
+  description: "Le silence r\xE8gne dans vos appartements, quand soudain ..."
   characterImage: {fileID: 21300000, guid: ec534184caee5fb4ba59c469cdb9fdcc, type: 3}
-  textChoiceLeft: 
-  textChoiceRight: 
+  textChoiceLeft: "Vous \xE9clatez en sanglots"
+  textChoiceRight: "Vous demandez \xE0 ce que le Saint Sacrement soit plac\xE9 dans
+    votre chambre pour pouvoir prier"
   playWhenDiscovered: {fileID: 0}
   act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 0}
@@ -27,7 +28,7 @@ MonoBehaviour:
   changeEraWhenSwipeLeft: {fileID: 0}
   addToHenryWhenSwipeLeft: 0
   addToReligionWhenSwipeLeft: 0
-  addToPeopleWhenSwipeLeft: 0
+  addToPeopleWhenSwipeLeft: 1
   addNextWhenSwipeRight: {fileID: 0}
   addLaterWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}
@@ -35,5 +36,5 @@ MonoBehaviour:
   playWhenSwipedRight: {fileID: 0}
   changeEraWhenSwipeRight: {fileID: 0}
   addToHenryWhenSwipeRight: 0
-  addToReligionWhenSwipeRight: 0
+  addToReligionWhenSwipeRight: 1
   addToPeopleWhenSwipeRight: 0

@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af61e01d538be0446885315c0df3407a, type: 3}
   m_Name: "Proc\xE8s 1"
   m_EditorClassIdentifier: 
-  title: "Proc\xE8s 1"
-  description: 
+  title: "Proc\xE8s"
+  description: "Votre oncle Norfolk pr\xE9side votre propre proc\xE8s !"
   characterImage: {fileID: 21300000, guid: 257aacb1971be8f4b82815129228cf61, type: 3}
-  textChoiceLeft: 
-  textChoiceRight: 
+  textChoiceLeft: Vous fondez en lui tous vos espoirs
+  textChoiceRight: C'est peine perdue, vous savez ce qu'il pense de vous
   playWhenDiscovered: {fileID: 0}
   act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 0}

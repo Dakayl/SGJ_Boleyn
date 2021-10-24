@@ -20,18 +20,18 @@ MonoBehaviour:
   textChoiceRight: "Vous pleurez \xE0 chaudes larmes"
   playWhenDiscovered: {fileID: 8300000, guid: 102822851814b4a4a858608b62a8afb2, type: 3}
   act2SpecialCard: 0
-  addNextWhenSwipeLeft: {fileID: 11400000, guid: e2633cb86a86af745b8b948b041a42c7, type: 2}
-  addLaterWhenSwipeLeft: {fileID: 0}
-  addRandomWhenSwipeLeft: {fileID: 0}
+  addNextWhenSwipeLeft: {fileID: 0}
+  addLaterWhenSwipeLeft: {fileID: 11400000, guid: e2633cb86a86af745b8b948b041a42c7, type: 2}
+  addRandomWhenSwipeLeft: {fileID: 11400000, guid: 5fb9bfc981010df429c2b31248599f84, type: 2}
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}
   changeEraWhenSwipeLeft: {fileID: 0}
   addToHenryWhenSwipeLeft: 1
   addToReligionWhenSwipeLeft: 0
   addToPeopleWhenSwipeLeft: 0
-  addNextWhenSwipeRight: {fileID: 11400000, guid: e2633cb86a86af745b8b948b041a42c7, type: 2}
-  addLaterWhenSwipeRight: {fileID: 0}
-  addRandomWhenSwipeRight: {fileID: 0}
+  addNextWhenSwipeRight: {fileID: 0}
+  addLaterWhenSwipeRight: {fileID: 11400000, guid: e2633cb86a86af745b8b948b041a42c7, type: 2}
+  addRandomWhenSwipeRight: {fileID: 11400000, guid: 5fb9bfc981010df429c2b31248599f84, type: 2}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}
   changeEraWhenSwipeRight: {fileID: 0}

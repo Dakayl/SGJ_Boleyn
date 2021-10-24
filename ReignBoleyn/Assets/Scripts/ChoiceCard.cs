@@ -38,7 +38,7 @@ public class ChoiceCard:ScriptableObject
 
 
     //Gestion des Jauges - Droite
-    [Range(-100, 100)] public int addToHenryWhenSwipeRight;
-    [Range(-100, 100)] public int addToReligionWhenSwipeRight;
-    [Range(-100, 100)] public int addToPeopleWhenSwipeRight;
+    [Range(-10, 10)] public int addToHenryWhenSwipeRight;
+    [Range(-10, 10)] public int addToReligionWhenSwipeRight;
+    [Range(-10, 10)] public int addToPeopleWhenSwipeRight;
 }

@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af61e01d538be0446885315c0df3407a, type: 3}
   m_Name: Tour 4
   m_EditorClassIdentifier: 
-  title: La tour de Londres 4
-  description: 
+  title: La tour de Londres
+  description: "L'isolement obscurcit vos pens\xE9es, la folie vous gagne. Vous ext\xE9riorisez
+    cette sensation..."
   characterImage: {fileID: 21300000, guid: ec534184caee5fb4ba59c469cdb9fdcc, type: 3}
-  textChoiceLeft: 
-  textChoiceRight: 
+  textChoiceLeft: "En criant jusqu'\xE0 vous \xE9poumoner"
+  textChoiceRight: "En tapant fr\xE9n\xE9tiquement contre les murs"
   playWhenDiscovered: {fileID: 0}
   act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 0}

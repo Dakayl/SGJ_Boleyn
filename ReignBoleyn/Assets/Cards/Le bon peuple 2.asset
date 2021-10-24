@@ -10,31 +10,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: af61e01d538be0446885315c0df3407a, type: 3}
-  m_Name: Heureuse nouvelle 1
+  m_Name: Le bon peuple 2
   m_EditorClassIdentifier: 
-  title: Heureuse nouvelle
-  description: "F\xE9licitations, vous \xEAtes enceinte ! Comment souhaitez-vous
-    le f\xEAter ?"
-  characterImage: {fileID: 21300000, guid: 3426806cab605f34ba3f4697e7bcb993, type: 3}
-  textChoiceLeft: Avec une procession religieuse
-  textChoiceRight: Avec une grande distribution de pain
-  playWhenDiscovered: {fileID: 8300000, guid: 102822851814b4a4a858608b62a8afb2, type: 3}
+  title: Le bon peuple
+  description: "Cromwell vous rapporte qu'un pr\xEAtre s'est tromp\xE9 lors de la
+    pri\xE8re : il a dit le nom de Catherine, et pas le v\xF4tre."
+  characterImage: {fileID: 21300000, guid: c7d966694c4e96649a10a6a62783df29, type: 3}
+  textChoiceLeft: "Vous faites jeter le pr\xEAtre en prison"
+  textChoiceRight: Vous lui pardonnez, ce n'est qu'un vieillard
+  playWhenDiscovered: {fileID: 0}
   act2SpecialCard: 0
   addNextWhenSwipeLeft: {fileID: 0}
-  addLaterWhenSwipeLeft: {fileID: 11400000, guid: b9ce7dba3cc09d641879ce3d69be9ad1, type: 2}
+  addLaterWhenSwipeLeft: {fileID: 0}
   addRandomWhenSwipeLeft: {fileID: 0}
   addLastWhenSwipeLeft: {fileID: 0}
   playWhenSwipedLeft: {fileID: 0}
   changeEraWhenSwipeLeft: {fileID: 0}
-  addToHenryWhenSwipeLeft: 2
-  addToReligionWhenSwipeLeft: 2
-  addToPeopleWhenSwipeLeft: 0
+  addToHenryWhenSwipeLeft: 0
+  addToReligionWhenSwipeLeft: 1
+  addToPeopleWhenSwipeLeft: -2
   addNextWhenSwipeRight: {fileID: 0}
-  addLaterWhenSwipeRight: {fileID: 11400000, guid: b9ce7dba3cc09d641879ce3d69be9ad1, type: 2}
+  addLaterWhenSwipeRight: {fileID: 0}
   addRandomWhenSwipeRight: {fileID: 0}
   addLastWhenSwipeRight: {fileID: 0}
   playWhenSwipedRight: {fileID: 0}
   changeEraWhenSwipeRight: {fileID: 0}
   addToHenryWhenSwipeRight: 0
   addToReligionWhenSwipeRight: 0
-  addToPeopleWhenSwipeRight: 0
+  addToPeopleWhenSwipeRight: 1
